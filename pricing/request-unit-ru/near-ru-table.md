@@ -1,0 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Near RU table
+
+<table><thead><tr><th width="421">Request Method</th><th>RU Price</th></tr></thead><tbody><tr><td>gas_price</td><td>20</td></tr><tr><td>send_tx</td><td>20</td></tr><tr><td>EXPERIMENTAL_maintenance_windows</td><td>20</td></tr><tr><td>EXPERIMENTAL_receipt</td><td>30</td></tr><tr><td>query</td><td>50</td></tr><tr><td>EXPERIMENTAL_changes</td><td>50</td></tr><tr><td>EXPERIMENTAL_genesis_config</td><td>50</td></tr><tr><td>tx</td><td>50</td></tr><tr><td>chunk</td><td>100</td></tr><tr><td>EXPERIMENTAL_tx_status</td><td>100</td></tr><tr><td>EXPERIMENTAL_protocol_config</td><td>150</td></tr><tr><td>status</td><td>200</td></tr><tr><td>block</td><td>300</td></tr><tr><td>EXPERIMENTAL_changes_in_block</td><td>500</td></tr><tr><td>network_info</td><td>500</td></tr><tr><td>validators</td><td>1000</td></tr></tbody></table>

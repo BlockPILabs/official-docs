@@ -1,0 +1,11 @@
+---
+description: >-
+  This page serves as an BlockPI API documentation index and lists the available
+  JSON-RPC methods.
+---
+
+# BlockPI
+
+### Account
+
+* [blockpi\_ruBalance](blockpi_rubalance.md)
