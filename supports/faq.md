@@ -21,7 +21,7 @@ You can view your current rate limit on the dashboard. If you require a higher r
 
 The current maximum number of endpoints per user account is 50.
 
-### Why are there no responses/timeout to any requests when using a WSS?
+### **Why are there no responses/timeout to any requests when using a WSS?**
 
 A long-term connection over WSS may result in requests not being responded to, which could be caused by network fluctuations or variations in server hardware performance. We recommend that users of WSS maintain heartbeat checks and implement reconnections if the heartbeat response time is too long or if there is no response.
 
@@ -45,10 +45,10 @@ The validity period of the Elementary and Premium packages is 60 days and 90 day
 
 We recommend that you set your Auto-Scaling to avoid waste. [Please check more details about the Auto-scaling here.](../pricing/auto-scaling-and-pay-as-you-go.md)
 
-### Why don't we support the custom tracer in the Debug methods?
+### **Why don't we support the custom tracer in the Debug methods?**
 
 Custom tracers incur significant system cost, so we are unable to provide them in our general services. Otherwise this would lead to an increase in service prices for all users. If debug\_traceCall with a custom tracer is an essential requirement for you, you may need to consult with our dedicated node service. [https://blockpi.io/?contact=sale](https://blockpi.io/?contact=sale)
 
-### Why do I get SSLCertVerificationError?
+### **Why do I get SSLCertVerificationError?**
 
 This is an issue with the user's own sever environment. Please check SSL certificate.
