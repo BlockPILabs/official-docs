@@ -86,22 +86,24 @@ curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network
 // Result
 {
     "block_height": "1",
-    "block_hash": "0xae57c688b78602035ff36d54f9cd72bb2c8e64129705e6c70d8fa942a1cc0a3f",
-    "block_timestamp": "1732636311639215",
+    "block_hash": "0x8304462ff3637bc8da83ee9173945843759780e0b11faaeb27ac88e464d3c0e4",
+    "block_timestamp": "1733442582812330",
     "first_version": "1",
     "last_version": "3",
     "transactions": [
         {
             "version": "1",
-            "hash": "0xc1a8d79713f5a6698a1ccd67697b768f51c1b6cfb7403f0e8a5518b0759aba5b",
-            "state_change_hash": "0x8b1a2959bd38488aa965f258126e606a50accd86430a4d9bcd898124d8978a3c",
-            "event_root_hash": "0x9ba1dcda40a58fe8895821afc58728ca01ba9f643812a18313e0d31b2ca01a80",
+            "hash": "0x9b923a3d9018d5ea3dd1cbf359d943a3ee52134f9ec30ec0df04593919f622f5",
+            "state_change_hash": "0xd258336122e3b692ce6b611d79007b837a207e0758d28e0579d3dc5e4a820789",
+            "event_root_hash": "0xebfa8ecfe93e77cb1720370471248221f65f0390e242d894e7d34e26554b9bbc",
             "state_checkpoint_hash": null,
             "gas_used": "0",
             "success": true,
             "vm_status": "Executed successfully",
-            "accumulator_root_hash": "0xb1ee85b938b66326a88a35a671d2b641739c5120efcc369dd51aa77b8ce82115",
+            "accumulator_root_hash": "0x5930ac1c5cb72b316189f7240d370c24bea0e1064a12e652cc1d35d87c9ea860",
             "changes": [
+                {
+                    "address": "0x1",
 ```
 ````
 {% endcode %}

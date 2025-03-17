@@ -80,7 +80,7 @@ An enum of the possible Move value types
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X POST -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/tables/tables/0x1b854694ae746cdbd8d44186ca4929b2b337df21d1c74633be19b2710552fdca/item
+curl -X POST -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/tables/0x1b854694ae746cdbd8d44186ca4929b2b337df21d1c74633be19b2710552fdca/item
 --data
 {
   "key_type": "address",

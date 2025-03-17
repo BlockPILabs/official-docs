@@ -73,7 +73,7 @@ To clarify, you might query for 0x1::account::Account and see the example data.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/accounts/0x6de517a18f003625e7fba9b9dc29b310f2e3026bbeb1997b3ada9de1e3cec8d6/resource/0x1::coin::CoinStore<0x1::movement_coin::MovementCoin>
+curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/accounts/0xdb42353b3f77383dce21d9c55a9f6a51149b2a45d1f376def4d2ea43d1b7e399/resource/0x1::account::Account
 
 // Result
 {

@@ -91,7 +91,7 @@ The JSON representation of the event
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/accounts/0x6de517a18f003625e7fba9b9dc29b310f2e3026bbeb1997b3ada9de1e3cec8d6/events//0x1%3A%3Acoin%3A%3ACoinStore%3C0x1%3A%3Amovement_coin%3A%3AMovementCoin%3E/withdraw_events
+curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/accounts/0x6de517a18f003625e7fba9b9dc29b310f2e3026bbeb1997b3ada9de1e3cec8d6/events/0x1%3A%3Acoin%3A%3ACoinStore%3C0x1%3A%3Amovement_coin%3A%3AMovementCoin%3E/withdraw_events
 
 // Result
 [

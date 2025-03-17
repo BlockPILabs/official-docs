@@ -61,7 +61,7 @@ array
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/accounts/0x9e5cf6e900fecbb716eb64781d40a5b1db9652caa6b61c188184b28c41687db2/transactions
+curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/accounts/0xdb42353b3f77383dce21d9c55a9f6a51149b2a45d1f376def4d2ea43d1b7e399/transactions
 
 
 // Result

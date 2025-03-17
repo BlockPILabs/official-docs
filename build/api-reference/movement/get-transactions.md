@@ -63,17 +63,17 @@ curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network
 
 // Result
 {
-    "version": "9",
-    "hash": "0xce43e86741858d7c6722078a0bb32c633f37e4b9a79844fd6d661ea830e25148",
+    "version": "523370",
+    "hash": "0x820800ad38ff5f746890c1e22e7b4a3a4a023e95b17a5e11b34617d157b436b3",
     "state_change_hash": "0xafb6e14fe47d850fd0a7395bcfb997ffacf4715e0f895cc162c218e4a7564bc6",
     "event_root_hash": "0x414343554d554c41544f525f504c414345484f4c4445525f4841534800000000",
-    "state_checkpoint_hash": "0xbba9de2d2585214e0e5331cd7f66f2652cf8b2146465d67149344356de43c731",
+    "state_checkpoint_hash": "0x7a3c1c0abdb64b6c2a0f35b15075c2a9f84881bb5bd465f543d7c7b1cdeb8352",
     "gas_used": "0",
     "success": true,
     "vm_status": "Executed successfully",
-    "accumulator_root_hash": "0xa8284e69faadc98f9893ac564e1d93b975b744869d9804a7454c2be4388c8d6a",
+    "accumulator_root_hash": "0x65f2e2a6be1f9435712661321794f9251722287905cb27b5dc20a39daa4d5d2a",
     "changes": [],
-    "timestamp": "1732636319660843",
+    "timestamp": "1742195401470227",
     "type": "state_checkpoint_transaction"
 }
 ```

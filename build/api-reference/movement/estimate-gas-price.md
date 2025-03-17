@@ -55,7 +55,7 @@ The prioritized estimate for the gas unit price
 #### Example:
 
 <pre class="language-json" data-overflow="wrap"><code class="lang-json">// Request
-curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/estimate_gas_price 
+curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/estimate_gas_price
 <strong>
 </strong>
 // Result

@@ -81,7 +81,7 @@ A string containing a 64-bit unsigned integer.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/accounts/blocks/by_version/1
+curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/blocks/by_version/1
 
 // Result
 {
