@@ -58,36 +58,20 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 ### Network infos:
 
 {% tabs %}
-{% tab title="Ethereum" %}
-<table><thead><tr><th width="579">Specs</th><th width="97">Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Mainnet</p><p><strong>Chain ID</strong>: 1</p><p><strong>New RPC URL</strong>: https://ethereum.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://etherscan.io/">https://etherscan.io/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Sepolia</p><p><strong>Chain ID</strong>: 11155111</p><p><strong>New RPC URL</strong>: https://ethereum-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: SepoliaETH</p><p><strong>Block Explore</strong>r: <a href="https://sepolia.etherscan.io/">https://sepolia.etherscan.io/</a></p></td><td><p></p><p></p><p>Sepolia</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Holesky</p><p><strong>Chain ID</strong>: 17000</p><p><strong>New RPC URL</strong>: https://ethereum-holesky.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explore</strong>r: <a href="https://holesky.beaconcha.in">https://holesky.beaconcha.in</a></p></td><td>Holesky</td></tr></tbody></table>
+{% tab title="Abstract" %}
+**Network Name**: BlockPI Abstract Mainnet
+
+**Chain ID**: 2741
+
+**New RPC URL**: https://abstract.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: ETH
+
+**Block Explorer**: [https://abscan.org/](https://abscan.org/)
 {% endtab %}
 
 {% tab title="Arbitrum" %}
 <table><thead><tr><th width="586.5">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum One</p><p><strong>Chain ID</strong>: 42161</p><p><strong>New RPC URL</strong>: https://arbitrum.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://arbiscan.io/">https://arbiscan.io/</a></p></td><td>One</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum Nova</p><p><strong>Chain ID</strong>: 42170</p><p><strong>New RPC URL</strong>: https://arbitrum-nova.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://nova.arbiscan.io/">https://nova.arbiscan.io/</a></p></td><td>Nova</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum Sepolia</p><p><strong>Chain ID</strong>: 421614</p><p><strong>New RPC URL</strong>: https://arbitrum-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://sepolia-explorer.arbitrum.io">https://sepolia-explorer.arbitrum.io</a></p></td><td>Sepolia</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Kaia" %}
-<table><thead><tr><th width="559">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Kaia Mainnet</p><p><strong>Chain ID</strong>: 8217</p><p><strong>New RPC URL</strong>: https://kaia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: KAIA</p><p><strong>Block Explorer</strong>: <a href="https://kaiascope.com">https://kaiascope.com</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Kaia Testnet-Kairos</p><p><strong>Chain ID</strong>: 1001</p><p><strong>New RPC URL</strong>: https://kaia-kairos.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: KAIA</p><p><strong>Block Explorer</strong>: <a href="https://kairos.kaiascope.com/">https://kairos.kaiascope.com/</a></p></td><td><p></p><p></p><p>Kairos</p></td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Polygon" %}
-<table><thead><tr><th width="577">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Mainnet</p><p><strong>Chain ID</strong>: 137</p><p><strong>New RPC URL</strong>: https://polygon.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://polygonscan.com/">https://polygonscan.com/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Amoy</p><p><strong>Chain ID</strong>: 80002</p><p><strong>New RPC URL</strong>: https://polygon-amoy.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://www.oklink.com/amoy">https://www.oklink.com/amoy</a></p></td><td>Amoy</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Mainnet</p><p><strong>Chain ID</strong>: 1101</p><p><strong>New RPC URL</strong>: https://polygon-zkevm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://zkevm.polygonscan.com/">https://zkevm.polygonscan.com/</a></p></td><td>zkEVM Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Cardona</p><p><strong>Chain ID</strong>: 2442</p><p><strong>New RPC URL</strong>: https://polygon-zkevm-cardona.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://cardona-zkevm.polygonscan.com">https://cardona-zkevm.polygonscan.com</a></p></td><td>zkEVM<br>Cardona</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="OP" %}
-<table><thead><tr><th width="559">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI OP Mainnet</p><p><strong>Chain ID</strong>: 10</p><p><strong>New RPC URL</strong>: https://optimism.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://optimistic.etherscan.io/">https://optimistic.etherscan.io/</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI OP Sepolia</p><p><strong>Chain ID</strong>: 11155420</p><p><strong>New RPC URL</strong>: https://optimism-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://optimism-sepolia.blockscout.com/">https://optimism-sepolia.blockscout.com/</a></p></td><td>Sepolia</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="BSC" %}
-**Network Name**: BlockPI BSC&#x20;
-
-**Chain ID**: 56
-
-**New RPC URL**: https://bsc.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: BNB
-
-**Block Explorer**: [https://bscscan.com/](https://bscscan.com/)
 {% endtab %}
 
 {% tab title="Avalanche" %}
@@ -102,20 +86,6 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://snowtrace.io](https://snowtrace.io)
 {% endtab %}
 
-{% tab title="Starknet" %}
-**Network Name**: BlockPI Starknet Mainnet
-
-**Chain ID**: 23448594291968334
-
-**New RPC URL**: https://starknet.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: ETH
-
-**Block Explorer**: [https://starkscan.co](https://starkscan.co)
-{% endtab %}
-{% endtabs %}
-
-{% tabs %}
 {% tab title="Berachain" %}
 **Network Name**: BlockPI Berachain Mainnet
 
@@ -128,6 +98,68 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://berascan.com/](https://berascan.com/)
 {% endtab %}
 
+{% tab title="Blast" %}
+<table><thead><tr><th width="569">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Blast Mainnet</p><p><strong>Chain ID</strong>: 81457</p><p><strong>New RPC URL</strong>: https://blast.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://blastscan.io/">https://blastscan.io/</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Blast Sepolia</p><p><strong>Chain ID</strong>: 168587773</p><p><strong>New RPC URL</strong>: https://blast-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://testnet.blastscan.io">https://testnet.blastscan.io</a></p></td><td>Sepolia</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="BSC" %}
+**Network Name**: BlockPI BSC&#x20;
+
+**Chain ID**: 56
+
+**New RPC URL**: https://bsc.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: BNB
+
+**Block Explorer**: [https://bscscan.com/](https://bscscan.com/)
+{% endtab %}
+
+{% tab title="Celo" %}
+**Network Name**: BlockPI Celo Mainnet
+
+**Chain ID**: 42220
+
+**New RPC URL**: https://celo.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: CELO
+
+**Block Explorer**: [https://celoscan.io](https://celoscan.io)
+{% endtab %}
+
+{% tab title="Cronos" %}
+**Network Name**: BlockPI Cronos Mainnet
+
+**Chain ID**: 25
+
+**New RPC URL**: https://cronos.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: CRO
+
+**Block Explorer**: [https://cronoscan.com](https://cronoscan.com)
+{% endtab %}
+
+{% tab title="Conflux eSpace" %}
+**Network Name**: BlockPI Conflux eSpace&#x20;
+
+**Chain ID**: 1030
+
+**New RPC URL**: https://conflux-espace.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: CFX
+
+**Block Explorer**: evm.confluxscan.net
+{% endtab %}
+
+{% tab title="OP" %}
+<table><thead><tr><th width="559">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI OP Mainnet</p><p><strong>Chain ID</strong>: 10</p><p><strong>New RPC URL</strong>: https://optimism.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://optimistic.etherscan.io/">https://optimistic.etherscan.io/</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI OP Sepolia</p><p><strong>Chain ID</strong>: 11155420</p><p><strong>New RPC URL</strong>: https://optimism-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://optimism-sepolia.blockscout.com/">https://optimism-sepolia.blockscout.com/</a></p></td><td>Sepolia</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Ethereum" %}
+<table><thead><tr><th width="579">Specs</th><th width="97">Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Mainnet</p><p><strong>Chain ID</strong>: 1</p><p><strong>New RPC URL</strong>: https://ethereum.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://etherscan.io/">https://etherscan.io/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Sepolia</p><p><strong>Chain ID</strong>: 11155111</p><p><strong>New RPC URL</strong>: https://ethereum-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: SepoliaETH</p><p><strong>Block Explore</strong>r: <a href="https://sepolia.etherscan.io/">https://sepolia.etherscan.io/</a></p></td><td><p></p><p></p><p>Sepolia</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Holesky</p><p><strong>Chain ID</strong>: 17000</p><p><strong>New RPC URL</strong>: https://ethereum-holesky.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explore</strong>r: <a href="https://holesky.beaconcha.in">https://holesky.beaconcha.in</a></p></td><td>Holesky</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
 {% tab title="Fantom" %}
 **Network Name**: BlockPI Fantom Mainnet
 
@@ -156,16 +188,8 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://gnosisscan.io/](https://gnosisscan.io/)
 {% endtab %}
 
-{% tab title="Cronos" %}
-**Network Name**: BlockPI Cronos Mainnet
-
-**Chain ID**: 25
-
-**New RPC URL**: https://cronos.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: CRO
-
-**Block Explorer**: [https://cronoscan.com](https://cronoscan.com)
+{% tab title="Kaia" %}
+<table><thead><tr><th width="559">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Kaia Mainnet</p><p><strong>Chain ID</strong>: 8217</p><p><strong>New RPC URL</strong>: https://kaia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: KAIA</p><p><strong>Block Explorer</strong>: <a href="https://kaiascope.com">https://kaiascope.com</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Kaia Testnet-Kairos</p><p><strong>Chain ID</strong>: 1001</p><p><strong>New RPC URL</strong>: https://kaia-kairos.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: KAIA</p><p><strong>Block Explorer</strong>: <a href="https://kairos.kaiascope.com/">https://kairos.kaiascope.com/</a></p></td><td><p></p><p></p><p>Kairos</p></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Oasys" %}
@@ -226,20 +250,8 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 <table><thead><tr><th width="427">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Merlin Mainnet</p><p><strong>Chain ID</strong>: 4200</p><p><strong>New RPC URL</strong>: https://merlin.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: BTC</p><p><strong>Block Explorer</strong>: <a href="https://scan.merlinchain.io">https://scan.merlinchain.io</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Merlin Testnet</p><p><strong>Chain ID</strong>: 686868</p><p><strong>New RPC URL</strong>: https://merlin-testnet.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: BTC</p><p><strong>Block Explorer</strong>: <a href="https://testnet-scan.merlinchain.io">https://testnet-scan.merlinchain.io</a><a href="https://scan.merlinchain.io"></a></p></td><td>Testnet</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Blast" %}
-<table><thead><tr><th width="569">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Blast Mainnet</p><p><strong>Chain ID</strong>: 81457</p><p><strong>New RPC URL</strong>: https://blast.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://blastscan.io/">https://blastscan.io/</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Blast Sepolia</p><p><strong>Chain ID</strong>: 168587773</p><p><strong>New RPC URL</strong>: https://blast-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://testnet.blastscan.io">https://testnet.blastscan.io</a></p></td><td>Sepolia</td></tr></tbody></table>
-{% endtab %}
-
-{% tab title="Conflux eSpace" %}
-**Network Name**: BlockPI Conflux eSpace&#x20;
-
-**Chain ID**: 1030
-
-**New RPC URL**: https://conflux-espace.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: CFX
-
-**Block Explorer**: evm.confluxscan.net
+{% tab title="Polygon" %}
+<table><thead><tr><th width="577">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Mainnet</p><p><strong>Chain ID</strong>: 137</p><p><strong>New RPC URL</strong>: https://polygon.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://polygonscan.com/">https://polygonscan.com/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Amoy</p><p><strong>Chain ID</strong>: 80002</p><p><strong>New RPC URL</strong>: https://polygon-amoy.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://www.oklink.com/amoy">https://www.oklink.com/amoy</a></p></td><td>Amoy</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Mainnet</p><p><strong>Chain ID</strong>: 1101</p><p><strong>New RPC URL</strong>: https://polygon-zkevm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://zkevm.polygonscan.com/">https://zkevm.polygonscan.com/</a></p></td><td>zkEVM Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Cardona</p><p><strong>Chain ID</strong>: 2442</p><p><strong>New RPC URL</strong>: https://polygon-zkevm-cardona.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://cardona-zkevm.polygonscan.com">https://cardona-zkevm.polygonscan.com</a></p></td><td>zkEVM<br>Cardona</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="SUI" %}
@@ -278,19 +290,6 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://explorer.mantle.xyz](https://explorer.mantle.xyz)
 {% endtab %}
 
-{% tab title="Celo" %}
-**Network Name**: BlockPI Celo Mainnet
-
-**Chain ID**: 42220
-
-**New RPC URL**: https://celo.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: CELO
-
-**Block Explorer**: [https://celoscan.io\
-](https://celoscan.io)
-{% endtab %}
-
 {% tab title="Metis" %}
 **Network Name**: BlockPI Metis Andromeda Mainnet
 
@@ -303,6 +302,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://andromeda-explorer.metis.io](https://andromeda-explorer.metis.io)
 {% endtab %}
 
+{% tab title="Starknet" %}
+**Network Name**: BlockPI Starknet Mainnet
+
+**Chain ID**: 23448594291968334
+
+**New RPC URL**: https://starknet.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: ETH
+
+**Block Explorer**: [https://starkscan.co](https://starkscan.co)
+{% endtab %}
+
 {% tab title="Story" %}
 **Network Name**: BlockPI Story Mainnet
 
@@ -313,18 +324,6 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Currency symbol**: IP
 
 **Block Explorer**: [https://mainnet.storyscan.xyz](https://mainnet.storyscan.xyz)
-{% endtab %}
-
-{% tab title="Abstract" %}
-**Network Name**: BlockPI Abstract Mainnet
-
-**Chain ID**: 2741
-
-**New RPC URL**: https://abstract.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: ETH
-
-**Block Explorer**: [https://abscan.org/](https://abscan.org/)
 {% endtab %}
 {% endtabs %}
 
