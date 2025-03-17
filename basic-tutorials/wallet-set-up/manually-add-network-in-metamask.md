@@ -130,7 +130,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://celoscan.io](https://celoscan.io)
 {% endtab %}
 
-{% tab title="Conflux eSpace" %}
+{% tab title="Conflux" %}
 **Network Name**: BlockPI Conflux eSpace&#x20;
 
 **Chain ID**: 1030
