@@ -62,7 +62,7 @@ Representation of a successful healthcheck
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://aptos.blockpi.network/aptos/v1/your_api_key/v1/-/healthy
+curl -X GET -H 'Content-Type: application/json' https://movement.blockpi.network/rpc/v1/your_api_key/v1/-/healthy
 
 // Result
 {

@@ -10,6 +10,7 @@ description: >-
 
 * [Get account](get-account.md)
 * [Get account resources](get-account-resources.md)
+* [Get account balance​](get-account-resources-1.md)
 * [Get account modules](get-account-modules.md)
 * [Get account resource](get-account-resource.md)
 * [Get account module](get-account-module.md)
@@ -27,8 +28,8 @@ description: >-
 ## General <a href="#web3_sha3" id="web3_sha3"></a>
 
 * [Show OpenAPI explorer](show-openapi-explorer.md)
-* [Show some basic info of the node](https://app.gitbook.com/o/CCcJfkiLYnSauCcsCN8C/s/8N6dEmxnAIzSedG519Hl/~/changes/92/build/api-reference/aptos/check-basic-node-health-1)
-* [Check basic node health](check-basic-node-health.md)
+* [Show some basic info of the node](check-basic-node-health.md)
+* [Check basic node health](check-basic-node-health-1.md)
 * [Get ledger info](get-ledger-info.md)
 
 ## Tables <a href="#web3_sha3-1" id="web3_sha3-1"></a>
@@ -40,6 +41,8 @@ description: >-
 * [Get transactions](get-transactions.md)
 * [Submit transaction](submit-transaction.md)
 * [Get transaction by hash](get-transaction-by-hash.md)
+* [Wait for transaction by hash​](get-transaction-by-hash-1.md)
+* [Get transaction by version​](get-transaction-by-hash-2.md)
 * [Get account transactions](get-account-transactions.md)
 * [Submit batch transactions](submit-batch-transactions.md)
 * [Simulate transaction](simulate-transaction.md)

@@ -1,60 +1,6 @@
----
-description: >-
-  By default this endpoint just checks that it can get the latest ledger info
-  and then returns 200.
----
+# Show some basic info of the node
 
-# Check basic node health
-
-If the duration\_secs param is provided, this endpoint will return a 200 if the following condition is true:
-
-`server_latest_ledger_info_timestamp >= server_current_time_timestamp - duration_secs`
-
-#### **Path Parameters:**
-
-None
-
-#### Query Parameters：
-
-**duration\_secs** integer
-
-Threshold in seconds that the server can be behind to be considered healthy
-
-#### **Response Header:**
-
-**X-APTOS-BLOCK-HEIGHT** integer&#x20;
-
-Current block height of the chain
-
-**X-APTOS-CHAIN-ID** integer&#x20;
-
-Chain ID of the current chain
-
-**X-APTOS-EPOCH** integer&#x20;
-
-Current epoch of the chain
-
-**X-APTOS-LEDGER-OLDEST-VERSION** integer&#x20;
-
-Oldest non-pruned ledger version of the chain
-
-**X-APTOS-LEDGER-TIMESTAMPUSEC** integer&#x20;
-
-Current timestamp of the chain
-
-**X-APTOS-LEDGER-VERSION** integer&#x20;
-
-Current ledger version of the chain
-
-**X-APTOS-OLDEST-BLOCK-HEIGHT** integer&#x20;
-
-Oldest non-pruned block height of the chain
-
-#### **Response Body:**
-
-Representation of a successful healthcheck
-
-**message** string\
+\
 
 
 #### Example:
@@ -62,11 +8,21 @@ Representation of a successful healthcheck
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://aptos.blockpi.network/aptos/v1/your_api_key/v1/-/healthy
+curl -X GET -H 'Content-Type: application/json' https://aptos.blockpi.network/aptos/v1/your_api_key/v1/info
 
 // Result
 {
-    "message": "aptos-node:ok"
+    "new_storage_format": false,
+    "continuous_syncing_mode": "ExecuteTransactionsOrApplyOutputs",
+    "bootstrapping_mode": "DownloadLatestStates",
+    "internal_indexer_config": {
+        "enable_transaction": false,
+        "enable_event": false,
+        "enable_event_v2_translation": false,
+        "event_v2_translation_ignores_below_version": 0,
+        "enable_statekeys": false,
+        "batch_size": 10000
+    }
 }
 ```
 {% endcode %}
