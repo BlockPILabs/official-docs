@@ -29,7 +29,7 @@ description: >-
 
 * [Show OpenAPI explorer](show-openapi-explorer.md)
 * [Show some basic info of the node](check-basic-node-health.md)
-* [Check basic node health](check-basic-node-health-1.md)
+* [Check basic node health](<check-basic-node-health (1).md>)
 * [Get ledger info](get-ledger-info.md)
 
 ## Tables <a href="#web3_sha3-1" id="web3_sha3-1"></a>
