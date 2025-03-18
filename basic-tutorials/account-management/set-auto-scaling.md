@@ -15,7 +15,7 @@ layout:
 
 # Set Auto-Scaling
 
-The Auto-Scaling setting is the following automatic purchase strategy when the current RU packages are fully consumed. Go to Pricing & Rate Limit for more information.&#x20;
+The Auto-Scaling setting is the following automatic purchase strategy when the current RU packages are fully consumed or expired. Go to Pricing & Rate Limit for more information.&#x20;
 
 {% content-ref url="../../pricing/pricing-and-rate-limit.md" %}
 [pricing-and-rate-limit.md](../../pricing/pricing-and-rate-limit.md)
