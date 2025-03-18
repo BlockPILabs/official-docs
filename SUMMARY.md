@@ -322,6 +322,7 @@
     * [Get events by event handle](build/api-reference/aptos/get-events-by-event-handle.md)
     * [Show OpenAPI explorer](build/api-reference/aptos/show-openapi-explorer.md)
     * [Check basic node health](build/api-reference/aptos/check-basic-node-health.md)
+    * [Show some basic info of the node](build/api-reference/aptos/check-basic-node-health-1.md)
     * [Get ledger info](build/api-reference/aptos/get-ledger-info.md)
     * [Get table item](build/api-reference/aptos/get-table-item.md)
     * [Get transactions](build/api-reference/aptos/get-transactions.md)

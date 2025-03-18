@@ -27,6 +27,7 @@ description: >-
 ## General <a href="#web3_sha3" id="web3_sha3"></a>
 
 * [Show OpenAPI explorer](show-openapi-explorer.md)
+* [Show some basic info of the node](https://app.gitbook.com/o/CCcJfkiLYnSauCcsCN8C/s/8N6dEmxnAIzSedG519Hl/~/changes/92/build/api-reference/aptos/check-basic-node-health-1)
 * [Check basic node health](check-basic-node-health.md)
 * [Get ledger info](get-ledger-info.md)
 
