@@ -31,7 +31,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://scroll.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getFilterChanges","params":["0xbcc693481b40a7c1ad28533e7311bd47"],"id":1}'
+curl https://t3rn.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getFilterChanges","params":["0xbcc693481b40a7c1ad28533e7311bd47"],"id":1}'
 
 // Result
 {

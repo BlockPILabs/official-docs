@@ -29,7 +29,7 @@ Expect that all properties are optional.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://scroll.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"eth_estimateGas","params":[{"from":"0x097258f96d538164c1434f4c0ff692a4cee3fe6f","to":"0xd3CdA913deB6f67967B99D67aCDFa1712C293601","value":"0x186a0"}],"id":1,"jsonrpc":"2.0"}'
+curl https://t3rn.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"eth_estimateGas","params":[{"from":"0x097258f96d538164c1434f4c0ff692a4cee3fe6f","to":"0xd3CdA913deB6f67967B99D67aCDFa1712C293601","value":"0x186a0"}],"id":1,"jsonrpc":"2.0"}'
 
 // Result
 {

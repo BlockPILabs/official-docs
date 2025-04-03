@@ -2,10 +2,9 @@
 description: >-
   This page serves as an Scroll API documentation index and lists the available
   JSON-RPC methods.
-hidden: true
 ---
 
-# B2N
+# T3rn
 
 ### Eth
 

@@ -31,7 +31,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://scroll.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"debug_traceCall","params":[{"from":"0xDAFEA492D9c6733ae3d56b7Ed1ADB60692c98Bc5","to":"0x4675C7e5BaAFBFFbca748158bEcBA61ef3b0a263","data":"0xf00d4b5d00000000000000000000000001291230982139282304923482304912923823920000000000000000000000001293123098123928310239129839291010293810"},{"tracer": "callTracer"},"latest"],"id":1,"jsonrpc":"2.0"}'
+curl https://t3rn.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"debug_traceCall","params":[{"from":"0xDAFEA492D9c6733ae3d56b7Ed1ADB60692c98Bc5","to":"0x4675C7e5BaAFBFFbca748158bEcBA61ef3b0a263","data":"0xf00d4b5d00000000000000000000000001291230982139282304923482304912923823920000000000000000000000001293123098123928310239129839291010293810"},{"tracer": "callTracer"},"latest"],"id":1,"jsonrpc":"2.0"}'
 
 // Result
 {

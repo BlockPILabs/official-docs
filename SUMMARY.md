@@ -487,7 +487,7 @@
     * [debug\_traceBlockByHash](build/api-reference/scroll/debug_traceblockbyhash.md)
     * [debug\_traceBlockByNumber](build/api-reference/scroll/debug_traceblockbynumber.md)
     * [debug\_traceTransaction](build/api-reference/scroll/debug_tracetransaction.md)
-  * [B2N](build/api-reference/scroll-1/README.md)
+  * [T3rn](build/api-reference/scroll-1/README.md)
     * [eth\_chainId](build/api-reference/scroll-1/eth_chainid.md)
     * [eth\_syncing](build/api-reference/scroll-1/eth_syncing.md)
     * [eth\_getBlockByNumber](build/api-reference/scroll-1/eth_getblockbynumber.md)

@@ -86,18 +86,6 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://snowtrace.io](https://snowtrace.io)
 {% endtab %}
 
-{% tab title="B2N" %}
-**Network Name**: BlockPI B2N Testnet
-
-**Chain ID**: 334
-
-**New RPC URL**: https://b2n-testnet.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: BRN
-
-**Block Explorer**: [https://b2n.explorer.caldera.xyz/](https://b2n.explorer.caldera.xyz/)
-{% endtab %}
-
 {% tab title="Base" %}
 <table><thead><tr><th width="569">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Base Mainnet</p><p><strong>Chain ID</strong>: 8453</p><p><strong>New RPC URL</strong>: https://base.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://basescan.org/">https://basescan.org/</a> </p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Base Sepolia</p><p><strong>Chain ID</strong>: 84532</p><p><strong>New RPC URL</strong>: https://base-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://base-sepolia.blockscout.com">https://base-sepolia.blockscout.com</a></p></td><td>Sepolia</td></tr></tbody></table>
 {% endtab %}
@@ -316,6 +304,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Currency symbol**: SUI
 
 **Block Explorer**: [https://suiscan.xyz/](https://suiscan.xyz/)
+{% endtab %}
+
+{% tab title="t3rn" %}
+**Network Name**: BlockPI t3rn B2N Testnet
+
+**Chain ID**: 334
+
+**New RPC URL**: https://t3rn-b2n.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: BRN
+
+**Block Explorer**: [https://b2n.explorer.caldera.xyz/](https://b2n.explorer.caldera.xyz/)
 {% endtab %}
 
 {% tab title="Taiko" %}

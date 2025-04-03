@@ -27,7 +27,7 @@ While the subscription is active, you will receive events formatted as an object
 {% code overflow="wrap" %}
 ```json
 // initiate websocket stream 
-wscat -c wss://scroll.blockpi.network/v1/ws/<your-api-key>
+wscat -c wss://t3rn.blockpi.network/v1/ws/<your-api-key>
 
 //create an event
 {"jsonrpc":"2.0","id": 2, "method": "eth_subscribe", "params": ["newHeads"]}

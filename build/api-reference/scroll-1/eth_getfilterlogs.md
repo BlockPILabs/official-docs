@@ -30,7 +30,7 @@ description: Returns an array of all logs matching filter with given id.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://scroll.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getFilterLogs","params":["0x450e61784c16b790720ade7863dfb300"],"id":1}'
+curl https://t3rn.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getFilterLogs","params":["0x450e61784c16b790720ade7863dfb300"],"id":1}'
 
 // Result
 {

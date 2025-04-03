@@ -20,7 +20,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://scroll.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_unsubscribe","params":["0xf13f7073ddef66a8c1b0c9c9f0e543c3"],"id":1}'
+curl https://t3rn.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_unsubscribe","params":["0xf13f7073ddef66a8c1b0c9c9f0e543c3"],"id":1}'
 
 // Result
 {
