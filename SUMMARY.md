@@ -1818,6 +1818,7 @@
   * [SUI RU table](pricing/request-unit-ru/sui-ru-table.md)
   * [Near RU table](pricing/request-unit-ru/near-ru-table.md)
   * [Ton RU table](pricing/request-unit-ru/ton-ru-table.md)
+  * [Solana/Eclipse RU table](pricing/request-unit-ru/ton-ru-table-1.md)
 * [Pricing & Rate Limit](pricing/pricing-and-rate-limit.md)
 * [Auto-Scaling & Pay As You Go](pricing/auto-scaling-and-pay-as-you-go.md)
 
