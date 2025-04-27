@@ -10,7 +10,13 @@ icon: galaxy
 
 To determine whether a specific network supports any features, refer to the "Advanced Feature" column in the API Key List. For more detailed supported advanced features, please go to [this page](../../build/supported-networks-and-advanced-features.md).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+
+## Endpoint Whitelist
+
+Each endpoint can have an independent whitelist, allowing you to set up to 10 IP addresses and domains. Once the whitelist feature is enabled, any requests sent to this endpoint will be checked; if they are not on the whitelist, an error will be returned.
+
+<figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
 
 ## Archive Mode
 

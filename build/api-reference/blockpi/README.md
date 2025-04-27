@@ -9,3 +9,4 @@ description: >-
 ### Account
 
 * [blockpi\_ruBalance](blockpi_rubalance.md)
+* [blockpi\_rubalance-1.md](blockpi_rubalance-1.md "mention")
