@@ -266,6 +266,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 <table><thead><tr><th width="577">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Mainnet</p><p><strong>Chain ID</strong>: 137</p><p><strong>New RPC URL</strong>: https://polygon.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://polygonscan.com/">https://polygonscan.com/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Amoy</p><p><strong>Chain ID</strong>: 80002</p><p><strong>New RPC URL</strong>: https://polygon-amoy.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://www.oklink.com/amoy">https://www.oklink.com/amoy</a></p></td><td>Amoy</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Mainnet</p><p><strong>Chain ID</strong>: 1101</p><p><strong>New RPC URL</strong>: https://polygon-zkevm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://zkevm.polygonscan.com/">https://zkevm.polygonscan.com/</a></p></td><td>zkEVM Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Cardona</p><p><strong>Chain ID</strong>: 2442</p><p><strong>New RPC URL</strong>: https://polygon-zkevm-cardona.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://cardona-zkevm.polygonscan.com">https://cardona-zkevm.polygonscan.com</a></p></td><td>zkEVM<br>Cardona</td></tr></tbody></table>
 {% endtab %}
 
+{% tab title="Sei" %}
+**Network Name**: BlockPI Sei Network
+
+**Chain ID**: 1329
+
+**New RPC URL**: https://sei-evm.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbo**l: SEI
+
+**Block Explorer**: [https://seitrace.com](https://seitrace.com)
+{% endtab %}
+
 {% tab title="Scroll" %}
 <table><thead><tr><th width="476.5">Specs</th><th>Networks</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Scroll Mainnet</p><p><strong>Chain ID</strong>: 534352</p><p><strong>New RPC URL</strong>: https://scroll.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://scrollscan.com/">https://scrollscan.com/</a></p></td><td>Scroll Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Scroll Sepolia</p><p><strong>Chain ID</strong>: 534351</p><p><strong>New RPC URL</strong>: https://scroll-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://sepolia-blockscout.scroll.io/">https://sepolia-blockscout.scroll.io/</a></p></td><td>Scroll Sepolia</td></tr></tbody></table>
 {% endtab %}
@@ -340,6 +352,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Currency symbo**l: VIC
 
 **Block Explorer**: [https://tomoscan.io/](https://tomoscan.io/)
+{% endtab %}
+
+{% tab title="X Layer" %}
+**Network Name**: BlockPI X Layer mainnet
+
+**Chain ID**: 196
+
+**New RPC URL**: https://xlayer.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbo**l: OKB
+
+**Block Explorer**: [https://www.okx.com/web3/explorer/xlayer](https://www.okx.com/web3/explorer/xlayer)
 {% endtab %}
 
 {% tab title="Zetachain" %}
