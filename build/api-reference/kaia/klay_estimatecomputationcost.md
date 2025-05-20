@@ -8,7 +8,7 @@ description: >-
 
 #### **Parameters**
 
-See [klay\_call](broken-reference) parameters, except that all properties are optional. If no gas limit is specified, the Klaytn node uses the default gas limit (uint64 / 2) as an upper bound.
+See [klay\_call.md](klay_call.md "mention") parameters, except that all properties are optional. If no gas limit is specified, the Klaytn node uses the default gas limit (uint64 / 2) as an upper bound.
 
 #### **Return Value**
 
