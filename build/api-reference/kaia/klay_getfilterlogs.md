@@ -16,7 +16,7 @@ The execution of this API can be limited by two node configurations to manage re
 
 #### **Return Value**
 
-See [klay\_getFilterChanges](broken-reference)
+See [klay\_getfilterchanges.md](klay_getfilterchanges.md "mention")
 
 #### Example
 

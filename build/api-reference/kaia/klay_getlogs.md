@@ -24,7 +24,7 @@ The block range of klay\_getLogs is limited to 1024. Requests with blocks over t
 
 #### **Return Value**
 
-See [klay\_getFilterChanges](broken-reference)
+See [klay\_getfilterchanges.md](klay_getfilterchanges.md "mention")
 
 #### Example
 
