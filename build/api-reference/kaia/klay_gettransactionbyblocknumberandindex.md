@@ -15,7 +15,7 @@ description: >-
 
 #### **Return Value**
 
-See [klay\_getTransactionByHash](broken-reference)
+See [klay\_gettransactionbyhash.md](klay_gettransactionbyhash.md "mention")
 
 #### Example
 
