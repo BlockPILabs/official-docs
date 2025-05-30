@@ -9,5 +9,5 @@ description: >-
 ### Account
 
 * [blockpi\_ruBalance](blockpi_rubalance.md)
-* [blockpi\_rubalance-1.md](blockpi_rubalance-1.md "mention")
-* [blockpi\_rubalance-2.md](blockpi_rubalance-2.md "mention")
+* [blockpi\_walletbalance.md](blockpi_walletbalance.md "mention")
+* [blockpi\_ruconsumed.md](blockpi_ruconsumed.md "mention")
