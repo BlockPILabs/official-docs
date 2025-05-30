@@ -1,9 +1,10 @@
 ---
-description: Using any existing key to query the consumed RUs within the time period.
-hidden: true
+description: >-
+  Using any existing key to query the consumed RUs within the time period for
+  corresponding endpoint.
 ---
 
-# blockpi\_ruCost
+# blockpi\_ruConsumed
 
 #### **Parameters:**
 
@@ -13,7 +14,7 @@ hidden: true
 
 #### **Returns:**
 
-**cost --** the consumed RUs within the time period.
+**cost --** the consumed RUs within the time period for corresponding endpoint.
 
 #### Example:
 
@@ -23,7 +24,7 @@ hidden: true
 curl  https://api.blockpi.io/openapi/v1/rpc -X POST -H "Content-Type: application/json" 
 --data '{
     "jsonrpc": "2.0",
-    "method": "blockpi_ruCost",
+    "method": "blockpi_ruConsumed",
     "params": [
         {
             "apiKey": "0fea34a6584b71e1df7794c4b2b405a3dddeea8a",

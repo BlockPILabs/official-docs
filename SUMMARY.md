@@ -35,7 +35,7 @@
   * [BlockPI](build/api-reference/blockpi/README.md)
     * [blockpi\_ruBalance](build/api-reference/blockpi/blockpi_rubalance.md)
     * [blockpi\_walletBalance](build/api-reference/blockpi/blockpi_rubalance-1.md)
-    * [blockpi\_ruCost](build/api-reference/blockpi/blockpi_rubalance-2.md)
+    * [blockpi\_ruConsumed](build/api-reference/blockpi/blockpi_rubalance-2.md)
   * [Ethereum](build/api-reference/ethereum/README.md)
     * [Ethereum RAW API](build/api-reference/ethereum/ethereum-raw-api/README.md)
       * [eth\_chainId](build/api-reference/ethereum/ethereum-raw-api/eth_chainid.md)
