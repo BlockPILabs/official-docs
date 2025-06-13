@@ -184,6 +184,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://gnosisscan.io/](https://gnosisscan.io/)
 {% endtab %}
 
+{% tab title="HyperEVM" %}
+**Network Name**: BlockPI Hyperliquid EVM Mainnet
+
+**Chain ID**: 999
+
+**New RPC URL**: https://hyperliquid.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: HYPE
+
+**Block Explorer**: [https://purrsec.com/](https://purrsec.com/)
+{% endtab %}
+
 {% tab title="Kaia" %}
 <table><thead><tr><th width="559">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Kaia Mainnet</p><p><strong>Chain ID</strong>: 8217</p><p><strong>New RPC URL</strong>: https://kaia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: KAIA</p><p><strong>Block Explorer</strong>: <a href="https://kaiascope.com">https://kaiascope.com</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Kaia Testnet-Kairos</p><p><strong>Chain ID</strong>: 1001</p><p><strong>New RPC URL</strong>: https://kaia-kairos.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: KAIA</p><p><strong>Block Explorer</strong>: <a href="https://kairos.kaiascope.com/">https://kairos.kaiascope.com/</a></p></td><td><p></p><p></p><p>Kairos</p></td></tr></tbody></table>
 {% endtab %}
