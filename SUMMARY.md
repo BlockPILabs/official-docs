@@ -24,6 +24,7 @@
   * [Deposit](basic-tutorials/account-management/deposit.md)
   * [Purchase Packages](basic-tutorials/account-management/purchase-packages.md)
   * [Set Auto-Scaling](basic-tutorials/account-management/set-auto-scaling.md)
+  * [Payment Method](basic-tutorials/account-management/set-auto-scaling-1.md)
   * [Email notifications setting](basic-tutorials/account-management/email-notifications-setting.md)
 * [Team Management](basic-tutorials/team-management/README.md)
   * [Build your own Team](basic-tutorials/team-management/build-your-own-team.md)

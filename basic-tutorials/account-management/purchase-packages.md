@@ -37,6 +37,6 @@ Go to the Endpoit page or Billings page. Click 'Buy Package'.
 {% step %}
 Choose a package you want to purchase. And click 'purchase' to finish.
 
-<figure><img src="../../.gitbook/assets/Purchase Packages 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}

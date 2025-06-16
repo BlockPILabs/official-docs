@@ -31,8 +31,8 @@ To set the strategy, go to the Endpoint page or Billings page. Click 'Settings'.
 {% endstep %}
 
 {% step %}
-Choose None,  the Pay As You Go, or a package and Confirm.
+Choose None,  the Pay As You Go, or an RU package and Confirm.
 
-<div align="center"><figure><img src="../../.gitbook/assets/Set Auto-Scaling 3.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
