@@ -33,7 +33,7 @@ Choose the blockchain network and input a key name. Then click generate.&#x20;
 {% endstep %}
 
 {% step %}
-There will be a new enpoint in the Endpoint list. You can choose wss or https and use it at your will.&#x20;
+There will be a new endpoint in the Endpoint list. You can choose wss or https and use it at your will.&#x20;
 
 <figure><img src="../../.gitbook/assets/Generate  API Key 3.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
