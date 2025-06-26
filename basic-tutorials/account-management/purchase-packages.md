@@ -27,7 +27,7 @@ There are three packages:
 
 {% stepper %}
 {% step %}
-Go to the Endpoit page or Billings page. Click 'Buy Package'.
+Go to the Endpoint page or Billings page. Click 'Buy Package'.
 
 <figure><img src="../../.gitbook/assets/Purchase Packages 1.png" alt=""><figcaption></figcaption></figure>
 
