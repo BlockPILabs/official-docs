@@ -77,7 +77,11 @@ def request():
 
 ## Segment Block Range in eth\_getLogs
 
-Here is another one with using the eth\_getLogs. As the method consumes decent sever resource. The block range limit of this method is set to 1024 to protect the node sever from overwhelming. If you need query a block range more than 1024, you can segment it to multiple requests with 1000 blocks each.
+Here is another one with using the eth\_getLogs. As the method consumes decent sever resource.&#x20;
+
+Our limit on eth\_getLogs block range are as follows: if no parameters are included, a single eth\_getLogs request is limited to 1024 blocks. If the request includes either the topic parameter or the address parameter, the limit is set to 5000.
+
+&#x20;If users need to query a block range more than this limit, you can segment it to multiple requests with certain blocks each.
 
 {% code overflow="wrap" %}
 ```python
