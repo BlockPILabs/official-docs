@@ -331,15 +331,15 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="t3rn" %}
-**Network Name**: BlockPI t3rn B2N Testnet
+**Network Name**: BlockPI t3rn Mainnet
 
-**Chain ID**: 334
+**Chain ID**: 819
 
-**New RPC URL**: https://t3rn-b2n.blockpi.network/v1/rpc/\<your key>
+**New RPC URL**: https://t3rn.blockpi.network/v1/rpc/\<your key>
 
-**Currency symbol**: BRN
+**Currency symbol**: TRN
 
-**Block Explorer**: [https://b2n.explorer.caldera.xyz/](https://b2n.explorer.caldera.xyz/)
+**Block Explorer**:&#x20;
 {% endtab %}
 
 {% tab title="Taiko" %}
