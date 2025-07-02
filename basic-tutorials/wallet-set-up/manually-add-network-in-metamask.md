@@ -279,15 +279,13 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="Sei" %}
-**Network Name**: BlockPI Sei Network
+<table><thead><tr><th width="531">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Sei Network</p><p><strong>Chain ID</strong>: 1329</p><p><strong>New RPC URL</strong>: https://sei-evm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: SEI</p><p><strong>Block Explorer</strong>: <a href="https://seitrace.com">https://seitrace.com</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Sei Testnet</p><p><strong>Chain ID</strong>: 1328</p><p><strong>New RPC URL</strong>: https://sei-testnet-evm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: SEI</p><p><strong>Block Explorer</strong>: <a href="https://testnet.seistream.app/">https://testnet.seistream.app/</a></p></td><td>Testnet</td></tr></tbody></table>
 
-**Chain ID**: 1329
 
-**New RPC URL**: https://sei-evm.blockpi.network/v1/rpc/\<your key>
 
-**Currency symbo**l: SEI
 
-**Block Explorer**: [https://seitrace.com](https://seitrace.com)
+
+
 {% endtab %}
 
 {% tab title="Scroll" %}
