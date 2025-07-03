@@ -1,16 +1,5 @@
 ---
 icon: wallet
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Manually Change LCD and RPC Endpoint in Keplr

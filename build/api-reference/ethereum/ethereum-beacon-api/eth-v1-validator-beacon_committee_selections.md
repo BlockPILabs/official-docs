@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # /eth/v1/validator/beacon\_committee\_selections
 
 This endpoint should be used by a validator client running as part of a distributed validator cluster, and is implemented by a distributed validator middleware client. This endpoint is used to exchange partial selection proofs for combined/aggregated selection proofs to allow a validator client to correctly determine if any of its validators has been selected to perform an attestation aggregation duty in a slot. Validator clients running in a distributed validator cluster must query this endpoint at the start of an epoch for the current and lookahead (next) epochs for all validators that have attester duties in the current and lookahead epochs. Consensus clients need not support this endpoint and may return a 501.

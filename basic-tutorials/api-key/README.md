@@ -1,17 +1,6 @@
 ---
 description: Go to BlockPI Network dashboard to generate your exclusive RPC endpoints.
 icon: key
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # API Key

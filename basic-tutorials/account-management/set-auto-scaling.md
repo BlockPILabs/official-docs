@@ -1,16 +1,5 @@
 ---
 icon: credit-card
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Set Auto-Scaling

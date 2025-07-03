@@ -1,17 +1,6 @@
 ---
 description: Follow these instructions to register & login.
 icon: address-card
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Registration & Login

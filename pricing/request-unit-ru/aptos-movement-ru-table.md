@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Aptos/Movement RU table
 
 <table><thead><tr><th width="399">Request Method</th><th>RU Price</th></tr></thead><tbody><tr><td>Get account</td><td>20</td></tr><tr><td>Get account module</td><td>20</td></tr><tr><td>Get account balance</td><td>20</td></tr><tr><td>Get account modules</td><td>20</td></tr><tr><td>Check basic node health</td><td>20</td></tr><tr><td>Estimate gas price</td><td>20</td></tr><tr><td>Show some basic info of the node</td><td>20</td></tr><tr><td>Get ledger info</td><td>25</td></tr><tr><td>Get table item</td><td>25</td></tr><tr><td>Get account resource</td><td>30</td></tr><tr><td>Encode submission</td><td>30</td></tr><tr><td>Submit transaction</td><td>45</td></tr><tr><td>Simulate transaction</td><td>45</td></tr><tr><td>Get blocks by height</td><td>60</td></tr><tr><td>Get blocks by version</td><td>60</td></tr><tr><td>Get transaction by hash</td><td>60</td></tr><tr><td>Wait for transaction by hash</td><td>60</td></tr><tr><td>Get transaction by version</td><td>60</td></tr><tr><td>Submit batch transactions</td><td>60</td></tr><tr><td>Get account resources</td><td>75</td></tr><tr><td>Get events by creation number</td><td>120</td></tr><tr><td>Get events by event handle</td><td>120</td></tr><tr><td>Get transactions</td><td>120</td></tr><tr><td>Get account transactions</td><td>120</td></tr></tbody></table>

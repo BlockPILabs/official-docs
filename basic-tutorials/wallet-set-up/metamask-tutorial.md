@@ -1,17 +1,6 @@
 ---
 description: BlockPI supports one-click to add the RPC endpoint to MetaMask.
 icon: wallet
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # MetaMask Tutorial

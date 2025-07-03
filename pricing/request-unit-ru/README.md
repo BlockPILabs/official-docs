@@ -1,16 +1,5 @@
 ---
 icon: wave-square
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Request Unit (RU)

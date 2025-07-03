@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # SUI RU table
 
 <table><thead><tr><th width="421">Request Method</th><th>RU Price</th></tr></thead><tbody><tr><td>suix_getAllBalances</td><td>30</td></tr><tr><td>suix_getTotalSupply</td><td>20</td></tr><tr><td>suix_resolveNameServiceAddress</td><td>20</td></tr><tr><td>suix_getReferenceGasPrice</td><td>25</td></tr><tr><td>sui_getChainIdentifier</td><td>25</td></tr><tr><td>suix_queryEvents</td><td>30</td></tr><tr><td>suix_resolveNameServiceNames</td><td>30</td></tr><tr><td>sui_getMoveFunctionArgTypes</td><td>30</td></tr><tr><td>sui_getLatestCheckpointSequenceNumber</td><td>30</td></tr><tr><td>sui_getLoadedChildObjects</td><td>30</td></tr><tr><td>sui_getTotalTransactionBlocks</td><td>30</td></tr><tr><td>suix_getBalance</td><td>40</td></tr><tr><td>suix_getCoinMetadata</td><td>40</td></tr><tr><td>suix_getCoins</td><td>40</td></tr><tr><td>suix_queryTransactionBlocks</td><td>40</td></tr><tr><td>sui_getNormalizedMoveFunction</td><td>40</td></tr><tr><td>sui_getNormalizedMoveStruct</td><td>40</td></tr><tr><td>suix_getDynamicFieldObject</td><td>50</td></tr><tr><td>suix_getStakes</td><td>50</td></tr><tr><td>suix_getStakesByIds</td><td>50</td></tr><tr><td>sui_getCheckpoint</td><td>50</td></tr><tr><td>sui_getObject</td><td>50</td></tr><tr><td>sui_multiGetObjects</td><td>50</td></tr><tr><td>sui_tryGetPastObject</td><td>50</td></tr><tr><td>sui_getEvents</td><td>70</td></tr><tr><td>suix_getDynamicFields</td><td>75</td></tr><tr><td>suix_getOwnedObjects</td><td>75</td></tr><tr><td>sui_tryMultiGetPastObjects</td><td>80</td></tr><tr><td>sui_devInspectTransactionBlock</td><td>80</td></tr><tr><td>suix_getAllCoins</td><td>100</td></tr><tr><td>sui_getNormalizedMoveModule</td><td>150</td></tr><tr><td>sui_dryRunTransactionBlock</td><td>150</td></tr><tr><td>sui_executeTransactionBlock</td><td>150</td></tr><tr><td>sui_getCheckpoints</td><td>200</td></tr><tr><td>sui_getTransactionBlock</td><td>250</td></tr><tr><td>sui_multiGetTransactionBlocks</td><td>300</td></tr><tr><td>suix_getValidatorsApy</td><td>400</td></tr><tr><td>sui_getProtocolConfig</td><td>500</td></tr><tr><td>suix_getCommitteeInfo</td><td>600</td></tr><tr><td>suix_getLatestSuiSystemState</td><td>2000</td></tr><tr><td>sui_getNormalizedMoveModulesByPackage</td><td>2000</td></tr></tbody></table>
