@@ -1837,6 +1837,10 @@
 * [Account Abstraction (ERC-4337)](build/account-abstraction-erc-4337/README.md)
   * [Bundler Service](build/account-abstraction-erc-4337/bundler-service.md)
 
+***
+
+* [Dedicated Node](dedicated-node.md)
+
 ## Pricing
 
 * [Request Unit (RU)](pricing/request-unit-ru/README.md)
