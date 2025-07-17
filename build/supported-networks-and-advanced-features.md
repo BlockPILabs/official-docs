@@ -5,7 +5,7 @@ icon: globe
 
 # Supported Networks and Advanced Features
 
-BlockPI Network is now fully available on more than **60 chains** including Mainnet and Testnet.&#x20;
+BlockPI Network is now fully available on more than 7**0 chains** including Mainnet and Testnet.&#x20;
 
 BlockPI provides users with ample flexibility to customize advanced features of their Endpoints, including Archive mode, MEV protection, ERC-4337 Bundler service, and more.\
 \
