@@ -23,7 +23,7 @@
 * [Account Management](basic-tutorials/account-management/README.md)
   * [Deposit](basic-tutorials/account-management/deposit.md)
   * [Purchase Packages](basic-tutorials/account-management/purchase-packages.md)
-  * [Set Auto-Scaling](basic-tutorials/account-management/set-auto-scaling.md)
+  * [Set Auto-Renew](basic-tutorials/account-management/set-auto-scaling.md)
   * [Payment Method](basic-tutorials/account-management/set-auto-scaling-1.md)
   * [Email notifications setting](basic-tutorials/account-management/email-notifications-setting.md)
 * [Team Management](basic-tutorials/team-management/README.md)
@@ -1853,7 +1853,7 @@
   * [Ton RU table](pricing/request-unit-ru/ton-ru-table.md)
   * [Solana/Eclipse RU table](pricing/request-unit-ru/ton-ru-table-1.md)
 * [Pricing & Rate Limit](pricing/pricing-and-rate-limit.md)
-* [Auto-Scaling & Pay As You Go](pricing/auto-scaling-and-pay-as-you-go.md)
+* [Auto-Renew & Pay As You Go](pricing/auto-scaling-and-pay-as-you-go.md)
 
 ## Supports
 

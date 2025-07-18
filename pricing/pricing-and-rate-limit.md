@@ -4,7 +4,7 @@ icon: square-dollar
 
 # Pricing & Rate Limit
 
-To meet the needs of customers with different usage volumes, we have designed three types of RU packages, free, elementary, and premium. If you have greater demand for RPC services and look for some customized service, please contact us and we are glad to customize an enterprise package for you. Each RU package has an expiration time. Make sure to schedule your purchasing plan or turn on the Auto-Scaling function.&#x20;
+To meet the needs of customers with different usage volumes, we have designed three types of RU packages, free, elementary, and premium. If you have greater demand for RPC services and look for some customized service, please contact us and we are glad to customize an enterprise package for you. Each RU package has an expiration time. Make sure to schedule your purchasing plan or turn on the Auto-Renew function.&#x20;
 
 The Free package is not purchasable. It is designed as a gift package to be distributed to registered users on the 1st of every month.&#x20;
 
@@ -27,6 +27,6 @@ Here are scenarios to help you understand:
 * _**Scenario 1**_\
   &#xNAN;_&#x49;f you have a premium package in your account, your rate will be 2500RPS and 100000 RUPS, even you are consuming the monthly free package._
 * _**Scenario 2**_\
-  &#xNAN;_&#x59;ou are using the monthly free package but have made deposit and set your Auto-Scaling to Pay As You Go. Your rate limit will be 20 RPS and 400 RUPS._
+  &#xNAN;_&#x59;ou are using the monthly free package but have made deposit and set your Auto-Renew to Pay As You Go. Your rate limit will be 20 RPS and 400 RUPS._
 * _**Scenario 3**_\
-  &#xNAN;_&#x59;ou are using the monthly free package and set your Auto-Scaling to Pay As You Go or any paid package, but your wallet balance is zero. Your rate limit will be 20RPS and 400RUPS._
+  &#xNAN;_&#x59;ou are using the monthly free package and set your Auto-Renew to Pay As You Go or any paid package, but your wallet balance is zero. Your rate limit will be 20RPS and 400RUPS._

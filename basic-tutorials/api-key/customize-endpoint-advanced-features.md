@@ -28,7 +28,7 @@ In order to optimize efficiency, we recommend activating Archive mode only when 
 
 By default, the Archive mode is set to off. To enable it, simply click on the Archive mode symbol corresponding to the endpoint in the API Key list.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## ERC-4337 Bundler Service
 
@@ -36,7 +36,7 @@ BlockPI now provides Bundler Service for Account Abstraction users on **OP Mainn
 
 To customize it, go to the BlockPI [dashboard](https://dashboard.blockpi.io), click the endpoint which has the 'ERC-4337' mark. You will be directed to the subpage of the endpoint. (If you do not have any endpoint, please refer to the [Generate API Key](generate-an-api-key.md) page to generate a private endpoint).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the subpage of the endpoint, there is the 'AA Service' section, which presents you with five different options to choose.&#x20;
 
