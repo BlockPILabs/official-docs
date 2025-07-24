@@ -35,7 +35,7 @@ Please enable Archive Model to solve this error. Please note it will take a few 
 
 ### **If the $49 Elementary package is not enough for my monthly usage and the $299 Premium package is way too much for me, what should I do?**
 
-You can buy packages any time. For example, if you buy a package on the 10th of the month, and you consume it all on the 20th. You can buy a package on the 20th. Also, we recommend you set up your Auto-Renew package. [Please check more details about the Auto-scaling here.](../pricing/auto-scaling-and-pay-as-you-go.md)
+You can buy packages any time. For example, if you buy a package on the 10th of the month, and you consume it all on the 20th. You can buy a package on the 20th. Also, we recommend you set up your Auto-Renew package. Please check more details about the [Auto-Renew](../pricing/auto-scaling-and-pay-as-you-go.md) here.
 
 ### **What is the validity period of the packages? And how is it calculated?**
 
@@ -43,7 +43,7 @@ The validity period of the Elementary and Premium packages is 60 days and 90 day
 
 For example, if you have purchased an Elementary and a Premium package at the same time, the system will consume the Elementary package first. Don't worry, **the rate limit will be based on the Premium package level.**
 
-We recommend that you set your Auto-Renew to avoid waste. [Please check more details about the Auto-scaling here.](../pricing/auto-scaling-and-pay-as-you-go.md)
+We recommend that you set your Auto-Renew to avoid waste. Please check more details about the [Auto-Renew](../pricing/auto-scaling-and-pay-as-you-go.md) here.
 
 ### **Why don't we support the custom tracer in the Debug methods?**
 
