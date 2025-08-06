@@ -6,6 +6,10 @@ description: >-
 
 # Base
 
+{% hint style="info" %}
+Flashblocks is now supported. Please note that for HTTPS connection, both archive and full endpoints are supported. For WSS connection, only the archive endpoint is supported.
+{% endhint %}
+
 ### eth <a href="#eth" id="eth"></a>
 
 * [eth\_chainId](eth_chainid.md)
