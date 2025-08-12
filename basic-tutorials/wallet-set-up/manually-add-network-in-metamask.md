@@ -173,6 +173,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://ftmscan.com](https://ftmscan.com)
 {% endtab %}
 
+{% tab title="Flow EVM" %}
+**Network Name**: BlockPI Flow EVM Mainnet
+
+**Chain ID**: 747
+
+**New RPC URL**: https://flow-evm.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: FLOW
+
+**Block Explorer**: [https://evm.flowscan.io](https://evm.flowscan.io)
+{% endtab %}
+
 {% tab title="Gnosis" %}
 **Network Name**: BlockPI Gnosis Mainnet
 
