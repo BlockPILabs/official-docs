@@ -23,7 +23,7 @@ curl https://flow-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Ty
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "celo/v1.8.4-stable/linux-amd64/go1.19.13"
+    "result": "flow-evm-gateway@development"
 }
 ```
 {% endcode %}

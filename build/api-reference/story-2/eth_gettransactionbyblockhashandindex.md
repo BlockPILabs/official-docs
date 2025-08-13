@@ -34,7 +34,7 @@ description: Returns the information about a transaction requested by Block hash
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0x027b1e4089fec2bd23ab57f3de0292be6ccc216219a57cbf291844d70f23e99c", 0],"id":1}'
+curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0x2510d0fef058b7ffcf9e302717a9553122cc2118e88cbf1ee2ea40a760416faa", 0],"id":1}'
 
 // Result
 {

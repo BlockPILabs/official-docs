@@ -23,7 +23,7 @@ curl https://flow-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Ty
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "0xd3"
+    "result": "0x3"
 }
 ```
 {% endcode %}

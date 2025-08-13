@@ -25,7 +25,7 @@ description: >-
 * [eth\_getlogs.md](eth_getlogs.md "mention")
 * [eth\_getcode.md](eth_getcode.md "mention")
 * [eth\_call.md](eth_call.md "mention")
-* [eth\_accounts.md](eth_accounts.md "mention")
+* [Broken link](broken-reference "mention")
 * [eth\_getstorageat.md](eth_getstorageat.md "mention")
 * [eth\_estimategas.md](eth_estimategas.md "mention")
 * [eth\_newblockfilter.md](eth_newblockfilter.md "mention")

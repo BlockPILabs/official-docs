@@ -28,8 +28,12 @@ curl  https://flow-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-T
 // Result
 {
     "jsonrpc": "2.0",
-    "result": false,
-    "id": 1
+    "id": 1,
+    "result": {
+        "startingBlock": "0x230aa00",
+        "currentBlock": "0x230e1b9",
+        "highestBlock": "0x230e1bc"
+    }
 }
 ```
 {% endcode %}

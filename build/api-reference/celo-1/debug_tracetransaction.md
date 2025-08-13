@@ -23,7 +23,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://flow-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"debug_traceTransaction","params":["0x9f2a696055fd384535905af4340406ef7169182f6c890183e35827385e48edaa", {"tracer": "callTracer"}],"id":1,"jsonrpc":"2.0"}'
+curl https://flow-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"debug_traceTransaction","params":["0x6cac0a632b7a93dc8e74a094a5c42cce62ebd14af7aac009d91cb9de0c1b342d", {"tracer": "callTracer"}],"id":1,"jsonrpc":"2.0"}'
 
 // Result
 {

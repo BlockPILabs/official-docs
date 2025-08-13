@@ -36,28 +36,11 @@ It also returns either :
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://flow-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0xbd9aa0d6fe973743632e8db8e37d5c92787610a61e1c020881955bb8129a4917"],"id":1}'
+curl https://flow-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x6cac0a632b7a93dc8e74a094a5c42cce62ebd14af7aac009d91cb9de0c1b342d"],"id":1}'
 
 // Result
 {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "result": {
-        "blockHash": "0xff63ea7998b11170179aeb65dad9b137a36dea2a99bd97999cc2eee4ccbf0efc",
-        "blockNumber": "0x1aef73c",
-        "contractAddress": null,
-        "cumulativeGasUsed": "0x16303b",
-        "effectiveGasPrice": "0x106af3bcc0",
-        "from": "0x4403cbfae2b4571718b4d2e43ba7efaa9086e6be",
-        "gasUsed": "0x761b6",
-        "logs": [],
-        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "status": "0x0",
-        "to": "0xe2ef41a93dab1878310e81617da47995f6ec01fe",
-        "transactionHash": "0xbd9aa0d6fe973743632e8db8e37d5c92787610a61e1c020881955bb8129a4917",
-        "transactionIndex": "0x1",
-        "type": "0x0"
-    }
+
 }
 ```
 {% endcode %}

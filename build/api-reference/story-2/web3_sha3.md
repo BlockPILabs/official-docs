@@ -17,7 +17,7 @@ description: Returns Keccak-256 (not the standardized SHA3-256) of the given dat
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_sha3","params":["0x68656c6c6f20776f726c64"],"id":1}'
+curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_sha3","params":["0x68656c6c6f20776f726c64"],"id":1}'
 
 // Result
 {
