@@ -37,6 +37,7 @@
     * [blockpi\_ruBalance](build/api-reference/blockpi/blockpi_rubalance.md)
     * [blockpi\_walletBalance](build/api-reference/blockpi/blockpi_walletbalance.md)
     * [blockpi\_ruConsumed](build/api-reference/blockpi/blockpi_ruconsumed.md)
+    * [blockpi\_packageExpiration](build/api-reference/blockpi/blockpi_ruconsumed-1.md)
   * [Aptos](build/api-reference/aptos/README.md)
     * [Get account](build/api-reference/aptos/get-account.md)
     * [Get account resources](build/api-reference/aptos/get-account-resources.md)
