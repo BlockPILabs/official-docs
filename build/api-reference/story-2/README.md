@@ -1,58 +1,41 @@
 ---
 description: >-
-  This page serves as a Story API documentation index and lists the available
-  JSON-RPC methods.
+  This page serves as a Hyperliquid EVM API documentation index and lists the
+  available JSON-RPC methods.
 ---
 
-# Story
+# Hyperliquid EVM
 
 ### eth <a href="#eth" id="eth"></a>
 
-* [eth\_chainId](eth_chainid.md)
-* [eth\_syncing](eth_syncing.md)
-* [eth\_getBlockByNumber](eth_getblockbynumber.md)
-* [eth\_getBlockByHash](eth_getblockbyhash.md)
-* [eth\_blockNumber](eth_blocknumber.md)
-* [eth\_gasPrice](eth_gasprice.md)
-* [eth\_getBalance](eth_getbalance.md)
-* [eth\_sendRawTransaction](eth_sendrawtransaction.md)
-* [eth\_getTransactionByHash](eth_gettransactionbyhash.md)
-* [eth\_getTransactionByBlockNumberAndIndex](eth_gettransactionbyblocknumberandindex.md)
-* [eth\_getTransactionByBlockHashAndIndex](eth_gettransactionbyblockhashandindex.md)
-* [eth\_getTransactionReceipt](eth_gettransactionreceipt.md)
-* [eth\_getTransactionCount](eth_gettransactioncount.md)
-* [eth\_getBlockTransactionCountByNumber](eth_getblocktransactioncountbynumber.md)
-* [eth\_getLogs](eth_getlogs.md)
-* [eth\_getCode](eth_getcode.md)
-* [eth\_call](eth_call.md)
-* [eth\_accounts](eth_accounts.md)
-* [eth\_getStorageAt](eth_getstorageat.md)
-* [eth\_estimateGas](eth_estimategas.md)
-* [eth\_newBlockFilter](eth_newblockfilter.md)
-* [eth\_getFilterChanges](eth_getfilterchanges.md)
-* [eth\_uninstallFilter](eth_uninstallfilter.md)
-* [eth\_subscribe](eth_subscribe.md)
+* [eth\_chainid.md](eth_chainid.md "mention")
+* [eth\_syncing.md](eth_syncing.md "mention")
+* [eth\_getblockbynumber.md](eth_getblockbynumber.md "mention")
+* [eth\_getblockbyhash.md](eth_getblockbyhash.md "mention")
+* [eth\_blocknumber.md](eth_blocknumber.md "mention")
+* [eth\_gasprice.md](eth_gasprice.md "mention")
+* [eth\_getbalance.md](eth_getbalance.md "mention")
+* [eth\_sendrawtransaction.md](eth_sendrawtransaction.md "mention")
+* [eth\_gettransactionbyhash.md](eth_gettransactionbyhash.md "mention")
+* [eth\_gettransactionbyblocknumberandindex.md](eth_gettransactionbyblocknumberandindex.md "mention")
+* [eth\_gettransactionbyblockhashandindex.md](eth_gettransactionbyblockhashandindex.md "mention")
+* [eth\_gettransactionreceipt.md](eth_gettransactionreceipt.md "mention")
+* [eth\_gettransactioncount.md](eth_gettransactioncount.md "mention")
+* [eth\_getblocktransactioncountbynumber.md](eth_getblocktransactioncountbynumber.md "mention")
+* [eth\_getlogs.md](eth_getlogs.md "mention")
+* [eth\_getcode.md](eth_getcode.md "mention")
+* [eth\_call.md](eth_call.md "mention")
+* [eth\_getstorageat.md](eth_getstorageat.md "mention")
+* [eth\_estimategas.md](eth_estimategas.md "mention")
+* [eth\_gasprice-1.md](eth_gasprice-1.md "mention")
+* [eth\_gasprice-2.md](eth_gasprice-2.md "mention")
+* [eth\_gasprice-3.md](eth_gasprice-3.md "mention")
+* [eth\_gasprice-4.md](eth_gasprice-4.md "mention")
 
 ### net <a href="#eth_unsubscribe" id="eth_unsubscribe"></a>
 
-* [net\_version](net_version.md)
-* [net\_listening](net_listening.md)
-* [net\_peerCount](net_peercount.md)
+* [net\_version.md](net_version.md "mention")
 
 ### web3 <a href="#net_peercount" id="net_peercount"></a>
 
-* [web3\_clientVersion](web3_clientversion.md)
-* [web3\_sha3](web3_sha3.md)
-
-### txpool <a href="#web3_clientversion" id="web3_clientversion"></a>
-
-* [txpool\_inspect](txpool_inspect.md)
-* [txpool\_status](txpool_status.md)
-* [txpool\_content](txpool_content.md)
-
-### Debug <a href="#web3_sha3" id="web3_sha3"></a>
-
-* [eth\_getFilterChanges](eth_getfilterchanges.md)
-* [debug\_traceBlockByHash](debug_traceblockbynumber.md)
-* [debug\_traceBlockByNumber](debug_traceblockbynumber.md)
-* [debug\_traceTransaction](debug_tracetransaction.md)
+* [web3\_clientversion.md](web3_clientversion.md "mention")

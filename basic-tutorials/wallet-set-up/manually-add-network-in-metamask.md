@@ -197,6 +197,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://gnosisscan.io/](https://gnosisscan.io/)
 {% endtab %}
 
+{% tab title="Hemi" %}
+**Network Name**: BlockPI Hemi Mainnet
+
+**Chain ID**: 43111
+
+**New RPC URL**: https:/hemi.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: ETH
+
+**Block Explorer**: [https://explorer.hemi.xyz/](https://explorer.hemi.xyz/)
+{% endtab %}
+
 {% tab title="HyperEVM" %}
 **Network Name**: BlockPI Hyperliquid EVM Mainnet
 

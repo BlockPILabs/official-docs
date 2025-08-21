@@ -1,15 +1,14 @@
 ---
 description: >-
-  This page serves as a Hyperliquid EVM API documentation index and lists the
-  available JSON-RPC methods.
+  This page serves as a Hemi API documentation index and lists the available
+  JSON-RPC methods.
 ---
 
-# Hyperliquid EVM
+# Hemi
 
 ### eth <a href="#eth" id="eth"></a>
 
 * [eth\_chainid.md](eth_chainid.md "mention")
-* [eth\_syncing.md](eth_syncing.md "mention")
 * [eth\_getblockbynumber.md](eth_getblockbynumber.md "mention")
 * [eth\_getblockbyhash.md](eth_getblockbyhash.md "mention")
 * [eth\_blocknumber.md](eth_blocknumber.md "mention")
@@ -27,10 +26,7 @@ description: >-
 * [eth\_call.md](eth_call.md "mention")
 * [eth\_getstorageat.md](eth_getstorageat.md "mention")
 * [eth\_estimategas.md](eth_estimategas.md "mention")
-* [eth\_gasprice-1.md](eth_gasprice-1.md "mention")
-* [eth\_gasprice-2.md](eth_gasprice-2.md "mention")
-* [eth\_gasprice-3.md](eth_gasprice-3.md "mention")
-* [eth\_gasprice-4.md](eth_gasprice-4.md "mention")
+*
 
 ### net <a href="#eth_unsubscribe" id="eth_unsubscribe"></a>
 
@@ -39,3 +35,4 @@ description: >-
 ### web3 <a href="#net_peercount" id="net_peercount"></a>
 
 * [web3\_clientversion.md](web3_clientversion.md "mention")
+* [web3\_sha3.md](web3_sha3.md "mention")
