@@ -17,12 +17,12 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":83}'
+curl https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"net_version","params":[],"id":83}'
 
 // Result
 {
     "jsonrpc": "2.0",
-    "result": "42793",
+    "result": "16601",
     "id": 1
 }
 ```

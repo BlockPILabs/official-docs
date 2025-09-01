@@ -27,3 +27,7 @@ The eth\_getLogs method is used to request logs from smart contracts, and the am
 ## Low RU balance reminder
 
 The low RU balance reminder will be triggered when your RU balance drops to 10% of the total maximum RU amount from the RU packages currently available in your account. The system will send you an email as a reminder. This reminder is one-time only, and it will only be triggered again after you purchase a new package.
+
+### Cost Calculator
+
+To calculate the final RPC usage cost, we need to combine the RU table needs and the RU package pricing. Here is a price calculator to estimate the final cost of RPC usage. [https://blockpi.io/pricing/](https://blockpi.io/pricing/)

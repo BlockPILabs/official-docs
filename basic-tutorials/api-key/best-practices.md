@@ -172,6 +172,17 @@ if __name__ == "__main__":
 Please note that this is just a sample code, and you may need to adapt it to your specific development environment and requirements.
 {% endhint %}
 
+## HTTP Batch Call
+
+**What is a Batch Call?**\
+A batch call is a JSON-RPC method that bundles multiple requests (like `eth_call` or `eth_getBalance`) into a single HTTP request to an endpoint. This significantly reduces network overhead and latency compared to sending requests individually. Noted that the limit of the batch number is 1000. Any request with more batch calls will be rejected.
+
+**Key Considerations:**
+
+1. **Order:** Responses are returned in the exact same order as the requests.
+2. **Independent:** Requests execute separately; one failing doesn't stop the others. You must check each response for errors.
+3. **Limits:** Nodes enforce limits on batch size and computational complexity. Exceeding these will cause errors.
+
 ## Restrictions for Different Endpoint Types
 
 In order to better serve different types of users and ensure the healthy and efficient operation of BlockPI RPC service network, we have implemented different restrictions on various types of endpoints. If a user triggers any of these restrictions, the system will return an error. The following table outlines these limitations:

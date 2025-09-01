@@ -92,7 +92,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="Blast" %}
-<table><thead><tr><th width="569">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Blast Mainnet</p><p><strong>Chain ID</strong>: 81457</p><p><strong>New RPC URL</strong>: https://blast.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://blastscan.io/">https://blastscan.io/</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Blast Sepolia</p><p><strong>Chain ID</strong>: 168587773</p><p><strong>New RPC URL</strong>: https://blast-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://testnet.blastscan.io">https://testnet.blastscan.io</a></p></td><td>Sepolia</td></tr></tbody></table>
+<table><thead><tr><th width="569">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Blast Mainnet</p><p><strong>Chain ID</strong>: 81457</p><p><strong>New RPC URL</strong>: https://blast.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://blastscan.io/">https://blastscan.io/</a></p></td><td>Mainnet</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="BSC" %}
