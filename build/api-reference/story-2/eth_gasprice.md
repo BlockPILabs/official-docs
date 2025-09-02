@@ -20,12 +20,12 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://hemi.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":1}'
+curl https://hyperliquid.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":1}'
 
 // Result
 {
     "jsonrpc": "2.0",
-    "result": "0xf433c",
+    "result": "0x5f5e100",
     "id": 1
 }
 ```

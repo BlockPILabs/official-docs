@@ -32,7 +32,7 @@ description: Returns the information about a transaction requested by transactio
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://hyperliquid.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0xb91d9dc5d45baf303fb4196d9d3ea983726eefebec42cae3faee693448fa5d6f"],"id":1}'
+curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0x3a2fd175bf03b86e24915c79e09d16c3f11c81d6b4f4592f1bb927045dfe5f9e"],"id":1}'
 
 // Result
 {

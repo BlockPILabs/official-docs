@@ -22,7 +22,7 @@ curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-T
 // Result
 {
     "jsonrpc": "2.0",
-    "result": "Geth/v1.15.11-stable-c92ce38b/linux-amd64/go1.23.5",
+    "result": "octez-evm-node/octez-evm-node 0.36-b9080f29/Unix/ocamlc.5.2.1",
     "id": 1
 }
 ```

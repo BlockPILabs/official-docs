@@ -1,12 +1,12 @@
 ---
-description: Returns block information by number.
+description: Returns block information by hash.
 ---
 
-# eth\_getBlockByNumber
+# eth\_getBlockByHash
 
 #### **Parameters:**
 
-**QUANTITY|TAG** - integer of a block number, or the string "latest"
+**DATA , 32 Bytes** - Hash of a block.
 
 **Boolean** - If true it returns the full transaction objects, if false only the hashes of the transactions.
 
@@ -39,7 +39,7 @@ Object - A block object, or null when no block was found:
 {% code overflow="wrap" %}
 ```json
 // Request
-curl  https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest", true],"id":1}'
+curl https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0x45b780b0233fb7c8a1087dee362828be82a13e785df9b83b100b3944cc56b623",false],"id":1}'
 
 // Result
 {

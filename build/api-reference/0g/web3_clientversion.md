@@ -17,13 +17,13 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
+curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 
 // Result
 {
     "jsonrpc": "2.0",
-    "id": 1,
-    "result": "Geth/v0.11.0-stable-f6503708/linux-amd64/go1.22.4"
+    "result": "Geth/v1.15.11-stable-c92ce38b/linux-amd64/go1.23.5",
+    "id": 1
 }
 ```
 {% endcode %}

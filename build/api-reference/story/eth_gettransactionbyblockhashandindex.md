@@ -34,7 +34,7 @@ description: Returns the information about a transaction requested by Block hash
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://0g-galileo..blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0xfefe6d2425eb1d237d017aec7c719a333247faa5d8faad6758b943520012f533", 0],"id":1}'
+curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0x027b1e4089fec2bd23ab57f3de0292be6ccc216219a57cbf291844d70f23e99c", 0],"id":1}'
 
 // Result
 {

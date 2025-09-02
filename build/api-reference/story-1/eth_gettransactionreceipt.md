@@ -4,7 +4,7 @@ description: >-
   receipt is not available for pending transactions.
 ---
 
-# eth\_getTransactionReceipt
+# 0eth\_getTransactionReceipt
 
 #### **Parameters:**
 
@@ -36,7 +36,7 @@ It also returns either :
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x130c74ad88514c4196e082cbabba6a0a4e4b9575e247c285a11d33b273ef5b64"],"id":1}'
+curl https://hemi.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x7a0dc309c31cf65f7e65061b4c8d0e7679e2c75ffa8161e44ecded5b13288759"],"id":1}'
 
 // Result
 {

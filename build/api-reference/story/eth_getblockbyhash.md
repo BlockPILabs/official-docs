@@ -39,7 +39,7 @@ Object - A block object, or null when no block was found:
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0x45b780b0233fb7c8a1087dee362828be82a13e785df9b83b100b3944cc56b623",false],"id":1}'
+curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0x027b1e4089fec2bd23ab57f3de0292be6ccc216219a57cbf291844d70f23e99c",false],"id":1}'
 
 // Result
 {

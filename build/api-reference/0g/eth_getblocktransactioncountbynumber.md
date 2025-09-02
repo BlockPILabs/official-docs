@@ -17,13 +17,13 @@ description: Returns the number of transactions in a block matching the given bl
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":["latest"],"id":1}'
+curl https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":["latest"],"id":1}'
 
 // Result
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "0x3"
+    "result": "0x1c"
 }
 ```
 {% endcode %}

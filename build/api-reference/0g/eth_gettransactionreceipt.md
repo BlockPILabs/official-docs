@@ -36,7 +36,7 @@ It also returns either :
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0x580e9b56234a134f0354319666eee40cc2aab2ed27a5bea11a9da98fa790b9c9"],"id":1}'
+curl https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0xb6e6c1d8fdd1a2b424213f6fbcb04f226acebc7597ec76d9f5a79e584916dca4"],"id":1}'
 
 // Result
 {

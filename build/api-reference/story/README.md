@@ -4,7 +4,7 @@ description: >-
   available JSON-RPC methods.
 ---
 
-# 0G
+# Etherlink
 
 ### eth <a href="#eth" id="eth"></a>
 
@@ -26,21 +26,12 @@ description: >-
 * [eth\_call.md](eth_call.md "mention")
 * [eth\_getstorageat.md](eth_getstorageat.md "mention")
 * [eth\_estimategas.md](eth_estimategas.md "mention")
-* [eth\_newfilter.md](eth_newfilter.md "mention")
-* [eth\_newblockfilter.md](eth_newblockfilter.md "mention")
-* [eth\_newpendingtransactionfilter.md](eth_newpendingtransactionfilter.md "mention")
-* [eth\_getfilterchanges.md](eth_getfilterchanges.md "mention")
-* [eth\_uninstallfilter.md](eth_uninstallfilter.md "mention")
-* [eth\_subscribe.md](eth_subscribe.md "mention")
-* [eth\_unsubscribe.md](eth_unsubscribe.md "mention")
 
 
 
 ### txpool
 
 * [txpool\_content.md](txpool_content.md "mention")
-* [txpool\_inspect.md](txpool_inspect.md "mention")
-* [txpool\_status.md](txpool_status.md "mention")
 
 ### net <a href="#eth_unsubscribe" id="eth_unsubscribe"></a>
 
