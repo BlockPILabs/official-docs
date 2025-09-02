@@ -1,10 +1,10 @@
 ---
 description: >-
-  This page serves as a Hemi API documentation index and lists the available
-  JSON-RPC methods.
+  This page serves as a Etherlink API documentation index and lists the
+  available JSON-RPC methods.
 ---
 
-# Hemi
+# Etherlink
 
 ### eth <a href="#eth" id="eth"></a>
 
@@ -26,7 +26,12 @@ description: >-
 * [eth\_call.md](eth_call.md "mention")
 * [eth\_getstorageat.md](eth_getstorageat.md "mention")
 * [eth\_estimategas.md](eth_estimategas.md "mention")
-*
+
+
+
+### txpool
+
+* [txpool\_content.md](txpool_content.md "mention")
 
 ### net <a href="#eth_unsubscribe" id="eth_unsubscribe"></a>
 

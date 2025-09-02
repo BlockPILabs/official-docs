@@ -19,14 +19,13 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl  https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}'
+curl  https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}'
 
 // Result
 {
     "jsonrpc": "2.0",
     "id": 1,
-    "result": "0x40d9"
+    "result": "0x5ec"
 }
 ```
 {% endcode %}
-

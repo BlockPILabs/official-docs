@@ -1,14 +1,16 @@
 ---
-description: Returns the information about a transaction requested by Block hash and index.
+description: >-
+  Returns the information about a transaction requested by Block number and
+  index.
 ---
 
-# eth\_getTransactionByBlockHashAndIndex
+# eth\_getTransactionByBlockNumberAndIndex
 
 #### **Parameters:**
 
-**DATA , 32 Bytes** - Hash of a block.
+**QUANTITY|TAG** - Integer block number encoded as a hexadecimal, or the string 'latest', 'earliest' or 'pending'.
 
-**QUANTITY** - A decimal of the integer representing the position in the block.
+**QUANTITY** - A hex of the integer representing the position in the block.
 
 #### **Returns:**
 
@@ -34,7 +36,7 @@ description: Returns the information about a transaction requested by Block hash
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://0g-galileo..blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0xfefe6d2425eb1d237d017aec7c719a333247faa5d8faad6758b943520012f533", 0],"id":1}'
+curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockNumberAndIndex","params":["latest", "0x0"],"id":1}'
 
 // Result
 {

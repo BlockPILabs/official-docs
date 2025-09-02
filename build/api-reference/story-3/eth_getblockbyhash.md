@@ -39,7 +39,7 @@ Object - A block object, or null when no block was found:
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0x2510d0fef058b7ffcf9e302717a9553122cc2118e88cbf1ee2ea40a760416faa",false],"id":1}'
+curl https://hyperliquid.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0xaeff271ba5ed1bd2faeaa044d016e399be1508cd36916ea689ab06ba7a635293",false],"id":1}'
 
 // Result
 {

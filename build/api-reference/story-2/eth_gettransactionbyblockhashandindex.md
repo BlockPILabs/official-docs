@@ -34,7 +34,7 @@ description: Returns the information about a transaction requested by Block hash
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://hyperliquid.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0xaeff271ba5ed1bd2faeaa044d016e399be1508cd36916ea689ab06ba7a635293", 0],"id":1}'
+curl https://hemi.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0xcc78f19508b148584e7011a77e2ea03abab04325bfa5b9d1d0e3de4ddc820ca6", 0],"id":1}'
 
 // Result
 {

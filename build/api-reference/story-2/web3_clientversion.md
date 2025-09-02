@@ -17,13 +17,13 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://hyperliquid.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
+curl https://hemi.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 
 // Result
 {
     "jsonrpc": "2.0",
-    "id": 1,
-    "result": "hyperliquid evm Mainnet"
+    "result": "Geth/v0.1.0-untagged-e79d9922-20250519/linux-amd64/go1.24.2",
+    "id": 1
 }
 ```
 {% endcode %}

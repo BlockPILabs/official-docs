@@ -20,12 +20,12 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":1}'
+curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":1}'
 
 // Result
 {
     "jsonrpc": "2.0",
-    "result": "0xf4269",
+    "result": "0x2190172964b",
     "id": 1
 }
 ```

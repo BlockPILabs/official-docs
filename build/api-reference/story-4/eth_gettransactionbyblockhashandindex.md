@@ -1,12 +1,14 @@
 ---
-description: Returns the information about a transaction requested by transaction hash.
+description: Returns the information about a transaction requested by Block hash and index.
 ---
 
-# eth\_getTransactionByHash
+# eth\_getTransactionByBlockHashAndIndex
 
 #### **Parameters:**
 
-**DATA, 32 Bytes** - hash of a transaction
+**DATA , 32 Bytes** - Hash of a block.
+
+**QUANTITY** - A decimal of the integer representing the position in the block.
 
 #### **Returns:**
 
@@ -32,7 +34,7 @@ description: Returns the information about a transaction requested by transactio
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://0g-galileo.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0xb6e6c1d8fdd1a2b424213f6fbcb04f226acebc7597ec76d9f5a79e584916dca4"],"id":1}'
+curl https://story-odyssey-evm.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0x2510d0fef058b7ffcf9e302717a9553122cc2118e88cbf1ee2ea40a760416faa", 0],"id":1}'
 
 // Result
 {

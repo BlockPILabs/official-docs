@@ -17,12 +17,12 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://hemi.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
+curl https://etherlink.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":1}'
 
 // Result
 {
     "jsonrpc": "2.0",
-    "result": "Geth/v0.1.0-untagged-e79d9922-20250519/linux-amd64/go1.24.2",
+    "result": "octez-evm-node/octez-evm-node 0.36-b9080f29/Unix/ocamlc.5.2.1",
     "id": 1
 }
 ```
