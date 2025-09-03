@@ -8,7 +8,7 @@ icon: globe
 BlockPI Network Alpha-net officially launched on October 25th, 2022. Compared to Testnet, it is a more stable version and ready for production environments. For more information, please refer to [BlockPI Medium article](https://medium.com/blockpi/blockpi-alpha-net-your-reliable-web3-rpc-service-provider-9574201ec90b).&#x20;
 {% endhint %}
 
-BlockPI Network RPC service is supporting more than **70** blockchain networks. Check the full list .
+BlockPI Network RPC service is supporting more than 70 blockchain networks. Check the full list .
 
 {% content-ref url="../build/supported-networks-and-advanced-features.md" %}
 [supported-networks-and-advanced-features.md](../build/supported-networks-and-advanced-features.md)
