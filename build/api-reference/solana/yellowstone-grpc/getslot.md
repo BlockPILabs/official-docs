@@ -16,5 +16,10 @@ slots - tring - The current slot number on the Solana blockchain
 
 {% code overflow="wrap" %}
 ```json
+grpcurl -proto geyser.proto
+-H "x-token: <your-token>" 
+-d '{}' 
+solana.blockpi.network
+geyser.Geyser/GetBlockHeight/GetSlot
 ```
 {% endcode %}

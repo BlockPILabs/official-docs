@@ -20,5 +20,10 @@ extra - object - The extra object&#x20;
 
 {% code overflow="wrap" %}
 ```json
+grpcurl -proto geyser.proto
+-H "x-token: <your-token>" 
+-d '{}' 
+solana.blockpi.network
+geyser.Geyser/GetBlockHeight/Version
 ```
 {% endcode %}

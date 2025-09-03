@@ -22,5 +22,10 @@ lastValidBlockHeight - string - The last block height at which the retrieved blo
 
 {% code overflow="wrap" %}
 ```json
+grpcurl -proto geyser.proto
+-H "x-token: <your-token>" 
+-d '{}' 
+solana.blockpi.network
+geyser.Geyser/GetBlockHeight/GetLatestBlockhash
 ```
 {% endcode %}
