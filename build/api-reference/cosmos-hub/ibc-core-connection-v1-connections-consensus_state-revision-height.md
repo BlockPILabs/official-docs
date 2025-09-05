@@ -19,7 +19,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/ibc/core/connection/v1/connections/connection-187/consensus_state/revision/1/height/17409098
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/ibc/core/connection/v1/connections/connection-187/consensus_state/revision/1/height/17409098
 
 // Result
 {

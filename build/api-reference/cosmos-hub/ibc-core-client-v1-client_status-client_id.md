@@ -13,7 +13,7 @@ description: Status queries the status of an IBC client.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/ibc/core/client/v1/client_status/07-tendermint-0
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/ibc/core/client/v1/client_status/07-tendermint-0
 
 // Result
 {

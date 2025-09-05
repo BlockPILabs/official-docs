@@ -13,7 +13,7 @@ body - object
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/ibc/apps/interchain_accounts/controller/v1/params
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/ibc/apps/interchain_accounts/controller/v1/params
 
 // Result
 {

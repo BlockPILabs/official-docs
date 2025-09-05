@@ -13,7 +13,7 @@ description: ConnectionClientState queries the client state associated with the 
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/ibc/core/connection/v1/connections/connection-188/client_state
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/ibc/core/connection/v1/connections/connection-188/client_state
 
 // Result
 {

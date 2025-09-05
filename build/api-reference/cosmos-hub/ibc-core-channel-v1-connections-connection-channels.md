@@ -13,7 +13,7 @@ description: ConnectionChannels queries all the channels associated with a conne
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/ibc/core/channel/v1/connections/connection-618/channels
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/ibc/core/channel/v1/connections/connection-618/channels
 
 // Result
 {

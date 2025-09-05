@@ -13,7 +13,7 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/cosmos/base/tendermint/v1beta1/blocks/latest
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/cosmos/base/tendermint/v1beta1/blocks/latest
 
 // Result
 {

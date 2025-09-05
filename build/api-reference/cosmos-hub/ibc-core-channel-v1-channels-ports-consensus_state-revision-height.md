@@ -21,7 +21,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/ibc/core/channel/v1/channels/channel-370/ports/icahost/consensus_state/revision/1/height/0x2990e2
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/ibc/core/channel/v1/channels/channel-370/ports/icahost/consensus_state/revision/1/height/0x2990e2
 
 // Result
 {

@@ -13,7 +13,7 @@ description: DenomTrace queries a denomination trace information.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X GET -H 'Content-Type: application/json' https://cosmos-lcd.blockpi.network/cosmos/<your-api-key>/v1/ibc/apps/transfer/v1/denom_traces/{hash}
+curl -X GET -H 'Content-Type: application/json' https://cosmos.blockpi.network/lcd/v1/<your-api-key>/ibc/apps/transfer/v1/denom_traces/{hash}
 
 // Result
 
