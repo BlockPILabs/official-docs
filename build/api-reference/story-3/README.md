@@ -39,3 +39,19 @@ description: >-
 ### web3 <a href="#net_peercount" id="net_peercount"></a>
 
 * [web3\_clientversion.md](web3_clientversion.md "mention")
+
+### debug
+
+* [debug\_tracecall.md](../story-2/debug_tracecall.md "mention")
+* [debug\_traceblockbynumber.md](../story-2/debug_traceblockbynumber.md "mention")
+* [debug\_traceblockbyhash.md](../story-2/debug_traceblockbyhash.md "mention")
+* [debug\_tracetransaction.md](../story-2/debug_tracetransaction.md "mention")
+
+### trace
+
+* [trace\_block.md](../story-2/trace_block.md "mention")
+* [trace\_call.md](../story-2/trace_call.md "mention")
+* [trace\_filter.md](../story-2/trace_filter.md "mention")
+* [trace\_transaction.md](../story-2/trace_transaction.md "mention")
+* [trace\_replaytransaction.md](../story-2/trace_replaytransaction.md "mention")
+
