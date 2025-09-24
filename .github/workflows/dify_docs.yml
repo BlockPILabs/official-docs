@@ -13,3 +13,41 @@ on:
 jobs:
   run-custom-script:
     name: Run pull change to dify api
+    runs-on: ubuntu-latet
+
+    steps:
+      - name: Gather changed files
+        id: gather_changes
+        run: |
+          # 上一个提交的 SHA；如果是第一次 push，则 HEAD^ 可能失败，此处简单容错
+          PREV_SHA=$(git rev-parse HEAD^ || echo "")
+          echo "Previous SHA: $PREV_SHA"
+          if [ -z "$PREV_SHA" ]; then
+            # 只有一个提交，列出全部文件
+            CHANGED=$(git ls-files)
+          else
+            # HEAD^ 与 HEAD 之间的文件变更（Added/Modified/Deleted…）
+            CHANGED=$(git diff --name-only --diff-filter=ACDMRTUXB $PREV_SHA HEAD)
+          fi
+          echo "Changed files:"
+          echo "$CHANGED"
+          # 将文件列表写入 GITHUB_OUTPUT，供下步脚本读取
+          echo "changed_files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Run Python script
+        env:
+          CHANGED_FILES: ${{ steps.gather_changes.outputs.changed_files }}
+        run: |
+          python scripts/process_changes.py
