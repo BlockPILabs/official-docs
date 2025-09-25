@@ -100,7 +100,7 @@ def run_workflow(file_id: str, user: str, api_key: str, response_mode: str, requ
 
     payload = {
         "inputs": {
-            "orig_mail": [
+            "docs_file": [
                 {
                     "transfer_method": "local_file",
                     "upload_file_id": file_id,

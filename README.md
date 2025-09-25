@@ -13,5 +13,3 @@ coverY: 0
 ## Basic Tutorials
 
 <table data-view="cards"><thead><tr><th valign="top"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td valign="top">How to Add Network in Wallet</td><td><a href="basic-tutorials/wallet-set-up/">wallet-set-up</a></td><td><a href=".gitbook/assets/Wallet set up.jpg">Wallet set up.jpg</a></td></tr><tr><td valign="top">How to Generate An API Key</td><td><a href="basic-tutorials/api-key/">api-key</a></td><td><a href=".gitbook/assets/API Key.jpg">API Key.jpg</a></td></tr><tr><td valign="top">Build Your Own Team</td><td><a href="basic-tutorials/team-management/build-your-own-team.md">build-your-own-team.md</a></td><td><a href=".gitbook/assets/Build Your Own Team.jpg">Build Your Own Team.jpg</a></td></tr></tbody></table>
-
-
