@@ -31,6 +31,7 @@ def load_requests():
 
 def should_skip(path: str) -> bool:
     normalized = path.strip().replace("\\", "/").lstrip("./")
+    print(f"normalized: {normalized}")
     if not normalized:
         return True
     root_segment = normalized.split("/", 1)[0]
@@ -50,6 +51,7 @@ def gather_changed_files(raw: str) -> List[str]:
     candidates: List[str] = []
     for line in raw.splitlines():
         entry = line.strip()
+        print(f"should_skip {entry}")
         if not entry or should_skip(entry):
             continue
         if not Path(entry).is_file():
