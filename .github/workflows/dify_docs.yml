@@ -13,7 +13,7 @@ on:
 jobs:
   run-custom-script:
     name: Run pull change to dify api
-    runs-on: ubuntu-latet
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
