@@ -117,7 +117,7 @@ def run_workflow(file_id: str, user: str, api_key: str, response_mode: str, requ
             workflow_url,
             headers=headers,
             data=json.dumps(payload),
-            timeout=60,
+            timeout=120,
         )
     except requests_mod.exceptions.RequestException as exc:
         print(f"HTTP error while executing workflow for file id {file_id}: {exc}")
