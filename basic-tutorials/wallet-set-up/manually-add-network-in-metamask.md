@@ -240,7 +240,9 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 
 **Block Explorer**: [https://explorer.mantle.xyz](https://explorer.mantle.xyz)
 {% endtab %}
+{% endtabs %}
 
+{% tabs %}
 {% tab title="Meter" %}
 **Network Name**: BlockPI Meter Mainnet
 
@@ -280,9 +282,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 
 **Block Explorer**: [https://andromeda-explorer.metis.io](https://andromeda-explorer.metis.io)
 {% endtab %}
-{% endtabs %}
 
-{% tabs %}
 {% tab title="Oasys" %}
 **Network Name**: BlockPI Oasys Mainnet
 
@@ -328,7 +328,11 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 
 **Block Explorer**: [https://starkscan.co](https://starkscan.co)
 {% endtab %}
+{% endtabs %}
 
+
+
+{% tabs %}
 {% tab title="Story" %}
 **Network Name**: BlockPI Story Mainnet
 
@@ -368,11 +372,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% tab title="Taiko" %}
 <table><thead><tr><th width="545">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Taiko Hekla</p><p><strong>Chain ID</strong>: 167009</p><p><strong>New RPC URL</strong>: https://taiko-hekla.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://blockscoutapi.hekla.taiko.xyz">https://blockscoutapi.hekla.taiko.xyz</a></p></td><td>Hekla</td></tr></tbody></table>
 {% endtab %}
-{% endtabs %}
 
-
-
-{% tabs %}
 {% tab title="Unichain" %}
 <table><thead><tr><th width="545">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Unichain Mainnet</p><p><strong>Chain ID</strong>: 130</p><p><strong>New RPC URL</strong>: https://unichain.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://uniscan.xyz">https://uniscan.xyz</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Unichain Sepolia</p><p><strong>Chain ID</strong>: 1301</p><p><strong>New RPC URL</strong>: https://unichain-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://sepolia.uniscan.xyz/">https://sepolia.uniscan.xyz/</a></p></td><td>Sepolia</td></tr></tbody></table>
 {% endtab %}
