@@ -370,7 +370,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="Taiko" %}
-<table><thead><tr><th width="545">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Taiko Hekla</p><p><strong>Chain ID</strong>: 167009</p><p><strong>New RPC URL</strong>: https://taiko-hekla.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://blockscoutapi.hekla.taiko.xyz">https://blockscoutapi.hekla.taiko.xyz</a></p></td><td>Hekla</td></tr></tbody></table>
+<table><thead><tr><th width="545">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Taiko mainnet</p><p><strong>Chain ID</strong>: 167000</p><p><strong>New RPC URL</strong>: https://taiko.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://taikoscan.io/">https://taikoscan.io/</a></p></td><td>Mainnet</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Unichain" %}
