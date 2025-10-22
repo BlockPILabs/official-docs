@@ -2,7 +2,7 @@
 description: Returns an array of all logs matching a given filter object.
 ---
 
-# klay\_getLogs
+# kaia\_getLogs
 
 The execution of this API can be limited by two node configurations to manage resources of Klaytn node safely.
 
@@ -31,7 +31,7 @@ See [klay\_getfilterchanges.md](klay_getfilterchanges.md "mention")
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getLogs","params":[{"fromBlock":"0x1","toBlock":"latest","address":"0x87ac99835e67168d4f9a40580f8f5c33550ba88b"}],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getLogs","params":[{"fromBlock":"0x1","toBlock":"latest","address":"0x87ac99835e67168d4f9a40580f8f5c33550ba88b"}],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

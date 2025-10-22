@@ -2,7 +2,7 @@
 description: Returns the receipt of a transaction by transaction hash.
 ---
 
-# klay\_getTransactionReceipt
+# kaia\_getTransactionReceipt
 
 #### **Parameters**
 
@@ -49,7 +49,7 @@ description: Returns the receipt of a transaction by transaction hash.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getTransactionReceipt","params":["0xaca5d9a1ed8b86b1ef61431b2bedfc99a66eaefc3a7e1cffdf9ff53653956a67"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getTransactionReceipt","params":["0xaca5d9a1ed8b86b1ef61431b2bedfc99a66eaefc3a7e1cffdf9ff53653956a67"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

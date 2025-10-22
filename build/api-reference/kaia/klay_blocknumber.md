@@ -2,7 +2,7 @@
 description: Returns the number of most recent block.
 ---
 
-# klay\_blockNumber
+# kaia\_blockNumber
 
 #### **Parameters**
 
@@ -19,7 +19,7 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_blockNumber","params":[],"id":83}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_blockNumber","params":[],"id":83}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

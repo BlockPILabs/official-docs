@@ -4,7 +4,7 @@ description: >-
   since last poll.
 ---
 
-# klay\_getFilterChanges
+# kaia\_getFilterChanges
 
 #### **Parameters**
 
@@ -33,7 +33,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getFilterChanges","params":["0x16"],"id":73}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getFilterChanges","params":["0x16"],"id":73}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

@@ -2,7 +2,7 @@
 description: Returns the balance of the account of given address.
 ---
 
-# klay\_getBalance
+# kaia\_getBalance
 
 #### **Parameters**
 
@@ -22,7 +22,7 @@ description: Returns the balance of the account of given address.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getBalance","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f", "latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getBalance","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f", "latest"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

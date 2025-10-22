@@ -2,7 +2,7 @@
 description: Returns Keccak-256 (not the standardized SHA3-256) of the given data.
 ---
 
-# klay\_sha3
+# kaia\_sha3
 
 #### **Parameters**
 
@@ -21,7 +21,7 @@ description: Returns Keccak-256 (not the standardized SHA3-256) of the given dat
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_sha3","params":["0x11223344"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_sha3","params":["0x11223344"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

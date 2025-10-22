@@ -5,7 +5,7 @@ description: >-
   contract account which doesn't have codeHash.
 ---
 
-# klay\_isContractAccount
+# kaia\_isContractAccount
 
 #### **Parameters**
 
@@ -25,7 +25,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_isContractAccount","params":["0x2f07d5b3fa1051460099dc9ea0c2975b6ea67776", "latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_isContractAccount","params":["0x2f07d5b3fa1051460099dc9ea0c2975b6ea67776", "latest"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

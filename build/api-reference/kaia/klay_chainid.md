@@ -2,7 +2,7 @@
 description: Returns the chain ID of the chain.
 ---
 
-# klay\_chainID
+# kaia\_chainID
 
 #### **Parameters**
 
@@ -19,7 +19,7 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_chainID","id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_chainID","id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

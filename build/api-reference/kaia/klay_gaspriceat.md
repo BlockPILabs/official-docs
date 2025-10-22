@@ -2,7 +2,7 @@
 description: Returns the unit price of the given block in peb.
 ---
 
-# klay\_gasPriceAt
+# kaia\_gasPriceAt
 
 #### **Parameters**
 
@@ -21,7 +21,7 @@ description: Returns the unit price of the given block in peb.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_gasPriceAt","params":["0x64"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_gasPriceAt","params":["0x64"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

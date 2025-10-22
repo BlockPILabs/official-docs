@@ -4,7 +4,7 @@ description: >-
   sender's private key and propagates the transaction to Klaytn network.
 ---
 
-# klay\_sendTransaction
+# kaia\_sendTransaction
 
 #### **Parameters**
 
@@ -34,7 +34,7 @@ params: [{
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_sendTransaction","params":[{see above}],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_sendTransaction","params":[{see above}],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

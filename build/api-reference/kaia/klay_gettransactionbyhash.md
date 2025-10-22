@@ -4,7 +4,7 @@ description: >-
   This API works only on RPC call, not on JavaScript console.
 ---
 
-# klay\_getTransactionByHash
+# kaia\_getTransactionByHash
 
 #### **Parameters**
 
@@ -45,7 +45,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getTransactionByHash","params":["0xaca5d9a1ed8b86b1ef61431b2bedfc99a66eaefc3a7e1cffdf9ff53653956a67"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getTransactionByHash","params":["0xaca5d9a1ed8b86b1ef61431b2bedfc99a66eaefc3a7e1cffdf9ff53653956a67"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

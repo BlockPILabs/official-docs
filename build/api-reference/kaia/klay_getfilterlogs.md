@@ -4,7 +4,7 @@ description: >-
   obtained using klay_newFilter.
 ---
 
-# klay\_getFilterLogs
+# kaia\_getFilterLogs
 
 The execution of this API can be limited by two node configurations to manage resources of Klaytn node safely.
 
@@ -23,7 +23,7 @@ See [klay\_getfilterchanges.md](klay_getfilterchanges.md "mention")
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getFilterLogs","params":["0xd32fd16b6906e67f6e2b65dcf48fc272"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getFilterLogs","params":["0xd32fd16b6906e67f6e2b65dcf48fc272"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

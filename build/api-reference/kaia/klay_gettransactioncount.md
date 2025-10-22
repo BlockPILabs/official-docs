@@ -2,7 +2,7 @@
 description: Returns the number of transactions sent from an address.
 ---
 
-# klay\_getTransactionCount
+# kaia\_getTransactionCount
 
 #### **Parameters**
 
@@ -20,7 +20,7 @@ description: Returns the number of transactions sent from an address.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getTransactionCount","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f","latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getTransactionCount","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f","latest"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

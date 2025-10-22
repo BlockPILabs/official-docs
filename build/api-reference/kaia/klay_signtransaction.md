@@ -4,7 +4,7 @@ description: >-
   a sender's private key.
 ---
 
-# klay\_signTransaction
+# kaia\_signTransaction
 
 #### **Parameters**
 
@@ -22,7 +22,7 @@ The required parameters depend on the transaction type. Check the proper paramet
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0", "method":"klay_signTransaction", "params":[{"from":"0x77982323172e5b6182539d3522d5a33a944206d4", "to":"0xcd6bfdb523a4d030890d28bf1eb6ef36307c9aaa", "value":"0x10000", "gas":"0x1000000", "nonce":"0x2", "gasprice":"0x25000000000"}],"id":73}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0", "method":"kaia_signTransaction", "params":[{"from":"0x77982323172e5b6182539d3522d5a33a944206d4", "to":"0xcd6bfdb523a4d030890d28bf1eb6ef36307c9aaa", "value":"0x10000", "gas":"0x1000000", "nonce":"0x2", "gasprice":"0x25000000000"}],"id":73}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

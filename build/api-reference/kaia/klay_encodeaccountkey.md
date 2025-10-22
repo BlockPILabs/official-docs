@@ -24,7 +24,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request to encode AccountKeyNil
-curl -H "Content-Type: application/json" --data '{"jsonrpc": "2.0", "method": "kaia_encodeAccountKey", "params": [{"keyType": 0, "key": {}}], "id": 66}' http://127.0.0.1:8551
+curl -H "Content-Type: application/json" --data '{"jsonrpc": "2.0", "method": "kaia_encodeAccountKey", "params": [{"keyType": 0, "key": {}}], "id": 66}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

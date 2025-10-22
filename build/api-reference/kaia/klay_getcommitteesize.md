@@ -4,7 +4,7 @@ description: >-
   not set, returns the size of the committee at the latest block.
 ---
 
-# klay\_getCommitteeSize
+# kaia\_getCommitteeSize
 
 #### **Parameters**
 
@@ -23,7 +23,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0", "method":"klay_getCommitteeSize", "params":["0x1b4"],"id":73}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0", "method":"kaia_getCommitteeSize", "params":["0x1b4"],"id":73}' http://kaia.blockpi.network/v1/rpc/your-api-key
 // Result
 {
     "jsonrpc":"2.0",

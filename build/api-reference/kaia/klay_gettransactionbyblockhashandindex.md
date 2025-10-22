@@ -4,7 +4,7 @@ description: >-
   position. This API works only on RPC call, not on JavaScript console.
 ---
 
-# klay\_getTransactionByBlockHashAndIndex
+# kaia\_getTransactionByBlockHashAndIndex
 
 #### **Parameters**
 
@@ -19,7 +19,7 @@ See [klay\_gettransactionbyhash.md](klay_gettransactionbyhash.md "mention")
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getTransactionByBlockHashAndIndex","params":["0x451cafae98d61b7458b5cef54402830941432278184453e3ca490eb687317e68", "0x0"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getTransactionByBlockHashAndIndex","params":["0x451cafae98d61b7458b5cef54402830941432278184453e3ca490eb687317e68", "0x0"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

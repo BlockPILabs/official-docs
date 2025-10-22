@@ -1,4 +1,4 @@
-# klay\_sign
+# kaia\_sign
 
 The sign method calculates a Klaytn-specific signature with:
 
@@ -28,7 +28,7 @@ Adding a prefix to the message makes the calculated signature recognizable as a 
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_sign","params":["0x9b2055d370f73ec7d8a03e965129118dc8f5bf83", "0xdeadbeaf"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_sign","params":["0x9b2055d370f73ec7d8a03e965129118dc8f5bf83", "0xdeadbeaf"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

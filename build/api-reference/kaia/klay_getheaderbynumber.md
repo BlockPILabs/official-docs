@@ -4,7 +4,7 @@ description: >-
   not on JavaScript console.
 ---
 
-# klay\_getHeaderByNumber
+# kaia\_getHeaderByNumber
 
 #### **Parameters**
 
@@ -21,7 +21,7 @@ See [Klaytn Docs](https://docs.klaytn.foundation/dapp/json-rpc/api-references/kl
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getHeaderByNumber","params":["0x1b4"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getHeaderByNumber","params":["0x1b4"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 // Result
 {
   "jsonrpc":"2.0",

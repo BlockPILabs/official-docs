@@ -2,7 +2,7 @@
 description: Returns an object with data about the sync status or false.
 ---
 
-# klay\_syncing
+# kaia\_syncing
 
 #### **Parameters**
 
@@ -25,7 +25,7 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_syncing","params":[],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_syncing","params":[],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

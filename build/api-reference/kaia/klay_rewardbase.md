@@ -4,7 +4,7 @@ description: >-
   account where the block rewards goes to. It is only required for CNs.
 ---
 
-# klay\_rewardbase
+# kaia\_rewardbase
 
 #### **Parameters**
 
@@ -21,7 +21,7 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_rewardbase","id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_rewardbase","id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result - If requested from non-CN nodes
 {

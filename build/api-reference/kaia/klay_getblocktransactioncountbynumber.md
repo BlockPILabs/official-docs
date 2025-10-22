@@ -2,7 +2,7 @@
 description: Returns the number of transactions in a block matching the given block number.
 ---
 
-# klay\_getBlockTransactionCountByNumber
+# kaia\_getBlockTransactionCountByNumber
 
 #### **Parameters**
 
@@ -21,7 +21,7 @@ description: Returns the number of transactions in a block matching the given bl
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getBlockTransactionCountByNumber","params":["0xe8"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getBlockTransactionCountByNumber","params":["0xe8"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

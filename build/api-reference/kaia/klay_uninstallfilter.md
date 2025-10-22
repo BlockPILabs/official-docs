@@ -4,7 +4,7 @@ description: >-
   longer needed.
 ---
 
-# klay\_uninstallFilter
+# kaia\_uninstallFilter
 
 The execution of this API can be limited by two node configurations to manage resources of Klaytn node safely.
 
@@ -25,7 +25,7 @@ The execution of this API can be limited by two node configurations to manage re
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_uninstallFilter","params":["0xb"],"id":73}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_uninstallFilter","params":["0xb"],"id":73}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

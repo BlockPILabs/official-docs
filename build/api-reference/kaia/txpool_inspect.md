@@ -24,7 +24,7 @@ This is a method specifically tailored to developers to quickly see the transact
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"txpool_inspect","id":1}' https://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"txpool_inspect","id":1}' https://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

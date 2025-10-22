@@ -4,7 +4,7 @@ description: >-
   given hash.
 ---
 
-# klay\_getBlockTransactionCountByHash
+# kaia\_getBlockTransactionCountByHash
 
 #### **Parameters**
 
@@ -23,7 +23,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getBlockTransactionCountByHash","params":["0x0c11803ab36110db993e7520908b9ba9336cca2f2dcc9b6130c481a3ccdc2621"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getBlockTransactionCountByHash","params":["0x0c11803ab36110db993e7520908b9ba9336cca2f2dcc9b6130c481a3ccdc2621"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

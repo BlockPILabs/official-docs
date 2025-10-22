@@ -23,7 +23,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl https://klaytn.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"debug_traceBlockByHash","params":["0x9ed304f0736ba4acaa45a33a31ae15e81ac4e8a4eaaec8cfd5b080d46fa1acc9", {"tracer": "callTracer"}],"id":1,"jsonrpc":"2.0"}'
+curl https://kaia.blockpi.network/v1/rpc/your-rpc-key -X POST -H "Content-Type: application/json" --data '{"method":"debug_traceBlockByHash","params":["0x9ed304f0736ba4acaa45a33a31ae15e81ac4e8a4eaaec8cfd5b080d46fa1acc9", {"tracer": "callTracer"}],"id":1,"jsonrpc":"2.0"}'
 
 // Result
 {

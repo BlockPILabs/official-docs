@@ -2,7 +2,7 @@
 description: Returns code at a given address.
 ---
 
-# klay\_getCode
+# kaia\_getCode
 
 #### **Parameters**
 
@@ -22,7 +22,7 @@ description: Returns code at a given address.
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getCode","params":["0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b", "0x2"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getCode","params":["0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b", "0x2"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

@@ -2,7 +2,7 @@
 description: Creates a filter in the node, to notify when new pending transactions arrive.
 ---
 
-# klay\_newPendingTransactionFilter
+# kaia\_newPendingTransactionFilter
 
 #### **Parameters**
 
@@ -19,7 +19,7 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_newPendingTransactionFilter","params":[],"id":73}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_newPendingTransactionFilter","params":[],"id":73}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

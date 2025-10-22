@@ -43,7 +43,7 @@ params: [{
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_sendTransactionAsFeePayer","params":[{see above}],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_sendTransactionAsFeePayer","params":[{see above}],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

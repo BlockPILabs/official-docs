@@ -4,7 +4,7 @@ description: >-
   hash.
 ---
 
-# klay\_getDecodedAnchoringTransactionByHash
+# kaia\_getDecodedAnchoringTransactionByHash
 
 #### **Parameters**
 
@@ -21,7 +21,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getDecodedAnchoringTransactionByHash","params":["0x499350bc5e2f6fee1ba78b4d40a7a1db0a64f3c091112e6798a02ed9a4140084"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getDecodedAnchoringTransactionByHash","params":["0x499350bc5e2f6fee1ba78b4d40a7a1db0a64f3c091112e6798a02ed9a4140084"],"id":1}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

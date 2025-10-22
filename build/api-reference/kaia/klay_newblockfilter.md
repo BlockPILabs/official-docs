@@ -2,7 +2,7 @@
 description: Creates a filter in the node, to notify when a new block arrives.
 ---
 
-# klay\_newBlockFilter
+# kaia\_newBlockFilter
 
 The execution of this API can be limited by two node configurations to manage resources of Klaytn node safely.
 
@@ -21,7 +21,7 @@ None
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_newBlockFilter","params":[],"id":73}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_newBlockFilter","params":[],"id":73}' http://kaia.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {
