@@ -256,6 +256,8 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="Monad" %}
+<table><thead><tr><th width="556"></th><th></th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Monad Mainnet</p><p><strong>Chain ID</strong>: 143</p><p><strong>New RPC URL</strong>: https://monad.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: MON</p><p><strong>Block Explorer</strong>: <a href="http://monadexplorer.com/">http://monadexplorer.com/</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Monad testnet</p><p><strong>Chain ID</strong>: 10143</p><p><strong>New RPC URL</strong>: https://monad-testnet.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: MON</p><p><strong>Block Explorer</strong>: <a href="https://testnet.monadexplorer.com">https://testnet.monadexplorer.com</a></p></td><td>Testnet</td></tr></tbody></table>
+
 **Network Name**: BlockPI Monad testnet
 
 **Chain ID**: 10143

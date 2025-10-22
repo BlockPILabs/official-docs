@@ -5,7 +5,7 @@ description: >-
   Account.
 ---
 
-# klay\_getAccount
+# kaia\_getAccount
 
 #### **Parameters**
 
@@ -25,7 +25,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request (Account type: Externally Owned Account)
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getAccount","params":["0x3111a0577f322e8fb54f78d9982a26ae7ca0f722", "latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getAccount","params":["0x3111a0577f322e8fb54f78d9982a26ae7ca0f722", "latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

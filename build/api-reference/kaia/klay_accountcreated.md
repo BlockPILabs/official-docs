@@ -4,7 +4,7 @@ description: >-
   false otherwise.
 ---
 
-# klay\_accountCreated
+# kaia\_accountCreated
 
 #### **Parameters**
 
@@ -24,7 +24,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_accountCreated","params":["0xa4f42d4d2a3a13874406435500950c9bf2d783db","latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_accountCreated","params":["0xa4f42d4d2a3a13874406435500950c9bf2d783db","latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {

@@ -4,7 +4,7 @@ description: >-
   address.
 ---
 
-# klay\_getAccountKey
+# kaia\_getAccountKey
 
 #### **Parameters**
 
@@ -24,7 +24,7 @@ description: >-
 {% code overflow="wrap" %}
 ```json
 // Request (AccountKey type: AccountKeyPublic)
-curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"klay_getAccountKey","params":["0x3111a0577f322e8fb54f78d9982a26ae7ca0f722", "latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
+curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"kaia_getAccountKey","params":["0x3111a0577f322e8fb54f78d9982a26ae7ca0f722", "latest"],"id":1}' http://klaytn.blockpi.network/v1/rpc/your-api-key
 
 // Result
 {
