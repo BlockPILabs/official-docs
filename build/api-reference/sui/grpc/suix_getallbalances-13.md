@@ -27,6 +27,6 @@ grpcurl -proto .sui/rpc/v2beta2/live_data_service.proto
     "transaction": [ ... ]
 
 }' 
-sui.blockpi.network sui.rpc.v2beta.LiveDataService/SimulateTransaction
+sui.blockpi.network:443 sui.rpc.v2beta.LiveDataService/SimulateTransaction
 ```
 {% endcode %}

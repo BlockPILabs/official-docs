@@ -25,6 +25,6 @@ grpcurl -proto .sui/rpc/v2beta2/live_data_service.proto
     "coin_type": "0x2::sui::SUI"
 
 }' 
-sui.blockpi.network sui.rpc.v2beta.LiveDataService/GetCoinInfo
+sui.blockpi.network:443 sui.rpc.v2beta.LiveDataService/GetCoinInfo
 ```
 {% endcode %}

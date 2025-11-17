@@ -27,6 +27,6 @@ grpcurl -proto .sui/rpc/v2beta2/live_data_service.proto
     "parent": "0x0feb54a725aa357ff2f5bc6bb023c05b310285bd861275a30521f339a434ebb3"
 
 }' 
-sui.blockpi.network sui.rpc.v2beta.LiveDataService/ListDynamicFields
+sui.blockpi.network:443 sui.rpc.v2beta.LiveDataService/ListDynamicFields
 ```
 {% endcode %}

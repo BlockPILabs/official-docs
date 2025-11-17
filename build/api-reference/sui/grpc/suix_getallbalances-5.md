@@ -23,6 +23,6 @@ grpcurl -proto .sui/rpc/v2beta2/ledger_service.proto
     "object_id": "0x27c4fdb3b846aa3ae4a65ef5127a309aa3c1f466671471a806d8912a18b253e8",
 
 }' 
-sui.blockpi.network sui.rpc.v2beta.LedgerService/GetObject
+sui.blockpi.network:443 sui.rpc.v2beta.LedgerService/GetObject
 ```
 {% endcode %}

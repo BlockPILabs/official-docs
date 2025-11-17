@@ -30,6 +30,6 @@ grpcurl -proto .sui/rpc/v2beta2/transaction_execution_service.proto
       "show_balance_changes": true
   }
 }' 
-sui.blockpi.network sui.rpc.v2beta.LedgerService/ExecuteTransaction
+sui.blockpi.network:443 sui.rpc.v2beta.LedgerService/ExecuteTransaction
 ```
 {% endcode %}

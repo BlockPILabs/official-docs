@@ -33,6 +33,6 @@ grpcurl -proto .sui/rpc/v2beta2/ledger_service.proto
         ]
     }
 }' 
-sui.blockpi.network sui.rpc.v2beta.LedgerService/BatchGetObjects
+sui.blockpi.network:443 sui.rpc.v2beta.LedgerService/BatchGetObjects
 ```
 {% endcode %}
