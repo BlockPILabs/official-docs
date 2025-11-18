@@ -108,15 +108,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="Celo" %}
-**Network Name**: BlockPI Celo Mainnet
-
-**Chain ID**: 42220
-
-**New RPC URL**: https://celo.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: CELO
-
-**Block Explorer**: [https://celoscan.io](https://celoscan.io)
+<table><thead><tr><th width="570"></th><th></th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Celo Mainnet</p><p><strong>Chain ID</strong>: 42220</p><p><strong>New RPC URL</strong>: https://celo.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: CELO</p><p><strong>Block Explorer</strong>: <a href="https://celoscan.io">https://celoscan.io</a></p></td><td>Mainent</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Celo Sepolia</p><p><strong>Chain ID</strong>: 11142220</p><p><strong>New RPC URL</strong>: https://celo-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: CELO</p><p><strong>Block Explorer</strong>: <a href="https://sepolia.celoscan.io/">https://sepolia.celoscan.io/</a></p></td><td>Sepolia</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Conflux" %}
