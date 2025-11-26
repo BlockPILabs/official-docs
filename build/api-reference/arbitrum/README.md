@@ -6,6 +6,10 @@ description: >-
 
 # Arbitrum
 
+{% hint style="info" %}
+Please note that due to historical hard forks, data prior to block 22207817 is not supported.
+{% endhint %}
+
 ## eth <a href="#eth" id="eth"></a>
 
 * [eth\_chainId](eth_chainid.md)
