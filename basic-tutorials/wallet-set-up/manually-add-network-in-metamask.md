@@ -297,6 +297,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 <table><thead><tr><th width="577">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Mainnet</p><p><strong>Chain ID</strong>: 137</p><p><strong>New RPC URL</strong>: https://polygon.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://polygonscan.com/">https://polygonscan.com/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Amoy</p><p><strong>Chain ID</strong>: 80002</p><p><strong>New RPC URL</strong>: https://polygon-amoy.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://www.oklink.com/amoy">https://www.oklink.com/amoy</a></p></td><td>Amoy</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Mainnet</p><p><strong>Chain ID</strong>: 1101</p><p><strong>New RPC URL</strong>: https://polygon-zkevm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://zkevm.polygonscan.com/">https://zkevm.polygonscan.com/</a></p></td><td>zkEVM Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Cardona</p><p><strong>Chain ID</strong>: 2442</p><p><strong>New RPC URL</strong>: https://polygon-zkevm-cardona.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://cardona-zkevm.polygonscan.com">https://cardona-zkevm.polygonscan.com</a></p></td><td>zkEVM<br>Cardona</td></tr></tbody></table>
 {% endtab %}
 
+{% tab title="Untitled" %}
+**Network Name**: BlockPI Plasma Mainnnet
+
+**Chain ID**: 9745
+
+**New RPC URL**: https://plasma.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: XPL
+
+**Block Explorer**: [https://www.plasma.to](https://www.plasma.to)
+{% endtab %}
+
 {% tab title="Sei" %}
 <table><thead><tr><th width="531">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Sei Network</p><p><strong>Chain ID</strong>: 1329</p><p><strong>New RPC URL</strong>: https://sei-evm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: SEI</p><p><strong>Block Explorer</strong>: <a href="https://seitrace.com">https://seitrace.com</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Sei Testnet</p><p><strong>Chain ID</strong>: 1328</p><p><strong>New RPC URL</strong>: https://sei-testnet-evm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: SEI</p><p><strong>Block Explorer</strong>: <a href="https://testnet.seistream.app/">https://testnet.seistream.app/</a></p></td><td>Testnet</td></tr></tbody></table>
 
@@ -337,6 +349,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Currency symbol**: IP
 
 **Block Explorer**: [https://mainnet.storyscan.xyz](https://mainnet.storyscan.xyz)
+{% endtab %}
+
+{% tab title="Stable" %}
+**Network Name**: BlockPI Stable Mainnnet
+
+**Chain ID**: 988
+
+**New RPC URL**: https://stable.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: gUSDT
+
+**Block Explorer**: [https://stablescan.xyz](https://stablescan.xyz)
 {% endtab %}
 
 {% tab title="SUI" %}
