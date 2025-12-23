@@ -8,7 +8,7 @@ Different types of RPC queries consume different levels of BlockPI Network resou
 
 If you need to access the data from earlier blocks, you can follow this instruction to turn on the **Archive Mode**, which allows users to access all the historical data of the blockchain.&#x20;
 
-Archive mode will route the requests to archive nodes of the blockchain. It typically takes a **longer time** to process due to the huge amount of data. Since enabling Archive Mode will result in 30% additional RU consumption, we recommend users open Archive Mode only when it’s necessary. Check [best-practices.md](../../basic-tutorials/api-key/best-practices.md "mention") to better efficiently use the feature.
+Archive mode will route the requests to archive nodes of the blockchain. It typically takes a **longer time** to process due to the huge amount of data. Since enabling Archive Mode will result in 30% additional RU consumption, we recommend users open Archive Mode only when it’s necessary. Check [best-practices.md](../../basic-tutorials/best-practices.md "mention") to better efficiently use the feature.
 
 {% hint style="info" %}
 Other RPC methods that node client supports but not specified in this table will be charged based on the data size. The rate is 5 RUs per 250 byte.

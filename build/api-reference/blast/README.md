@@ -30,7 +30,7 @@ description: >-
 * [eth\_estimateGas](eth_estimategas.md)
 * [eth\_newBlockFilter](eth_newblockfilter.md)
 * [eth\_getFilterChanges](eth_getfilterchanges.md)
-* [eth\_uninstallFilter](eth_uninstallfilter.md)
+* [eth\_uninstallFilter](../berachain/eth_uninstallfilter.md)
 * [eth\_subscribe](eth_subscribe.md)
 
 #### net <a href="#eth_unsubscribe" id="eth_unsubscribe"></a>

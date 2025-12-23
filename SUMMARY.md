@@ -15,7 +15,6 @@
   * [Generate An API Key](basic-tutorials/api-key/generate-an-api-key.md)
   * [Statistic Page](basic-tutorials/api-key/statistic-page.md)
   * [Customize Endpoint Advanced Features](basic-tutorials/api-key/customize-endpoint-advanced-features.md)
-  * [Best Practices](basic-tutorials/api-key/best-practices.md)
 * [Wallet Set Up](basic-tutorials/wallet-set-up/README.md)
   * [MetaMask Tutorial](basic-tutorials/wallet-set-up/metamask-tutorial.md)
   * [Manually Add Network in MetaMask](basic-tutorials/wallet-set-up/manually-add-network-in-metamask.md)
@@ -28,6 +27,7 @@
   * [Email notifications setting](basic-tutorials/account-management/email-notifications-setting.md)
 * [Team Management](basic-tutorials/team-management/README.md)
   * [Build your own Team](basic-tutorials/team-management/build-your-own-team.md)
+* [Best Practices](basic-tutorials/best-practices.md)
 
 ## Build
 

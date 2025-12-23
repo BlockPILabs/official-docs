@@ -1,7 +1,6 @@
 # Show some basic info of the node
 
-\
-
+<br>
 
 #### Example:
 

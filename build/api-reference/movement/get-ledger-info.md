@@ -84,8 +84,7 @@ A string containing a 64-bit unsigned integer.
 
 A string containing a 64-bit unsigned integer.
 
-**git\_hash** string\
-
+**git\_hash** string<br>
 
 #### Example:
 

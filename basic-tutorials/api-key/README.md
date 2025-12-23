@@ -13,6 +13,6 @@ icon: key
 [statistic-page.md](statistic-page.md)
 {% endcontent-ref %}
 
-{% content-ref url="best-practices.md" %}
-[best-practices.md](best-practices.md)
+{% content-ref url="../best-practices.md" %}
+[best-practices.md](../best-practices.md)
 {% endcontent-ref %}

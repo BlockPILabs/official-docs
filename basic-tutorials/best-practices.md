@@ -188,3 +188,46 @@ A batch call is a JSON-RPC method that bundles multiple requests (like `eth_call
 In order to better serve different types of users and ensure the healthy and efficient operation of BlockPI RPC service network, we have implemented different restrictions on various types of endpoints. If a user triggers any of these restrictions, the system will return an error. The following table outlines these limitations:
 
 <table><thead><tr><th>Endpoint Type</th><th width="388.3333333333333">Restrictions </th><th>Error Code</th></tr></thead><tbody><tr><td>Public</td><td>Not support WS/WSS</td><td>N/A</td></tr><tr><td>Public</td><td>Not support Debug_* and Trace_*</td><td>-32000</td></tr><tr><td>Public</td><td>Maximum request rate: 10 qps</td><td>429</td></tr><tr><td>Public</td><td>Maximum response body size: 3 MB</td><td>-32000</td></tr><tr><td>Public</td><td>Maximum block range: 1024</td><td>-32602</td></tr><tr><td>Public</td><td>Maximum batch size: 10</td><td>-32000</td></tr><tr><td>Private</td><td>Maximum block range: 5000 with address input</td><td>-32602</td></tr><tr><td>Private</td><td>Only support “callTracer” and ”prestateTracer” for debug method</td><td>-32000</td></tr><tr><td>Private HTTPS</td><td>Maximum batch size: 1000</td><td>-32000</td></tr><tr><td>Private WSS</td><td>Do not support batch call</td><td>-32000</td></tr><tr><td>All HTTPS</td><td>Do not support subscribe and filter rpc method</td><td>-32000</td></tr></tbody></table>
+
+## Using gRPC in SUI SDK
+
+The following is a sample code demonstrating how to use a **gRPC Endpoint** with the SUI SDK. Please note that we **do not support gRPC-Web**, only **native gRPC**.
+
+```
+import * as grpc from '@grpc/grpc-js';
+import { SuiGrpcClient } from '@mysten/sui/grpc';
+//import { GrpcWebFetchTransport } from '@protobuf-ts/grpcweb-transport';
+import { GrpcTransport } from '@protobuf-ts/grpc-transport';
+
+const token = '...';
+
+const metadata = new grpc.Metadata();
+metadata.add('x-token', token);
+
+const metadataGenerator = (options, callback) => {
+  callback(null, metadata);
+};
+
+const callCredentials = grpc.credentials.createFromMetadataGenerator(metadataGenerator);
+
+
+var creds = grpc.credentials.combineChannelCredentials(
+          grpc.credentials.createSsl(),
+          callCredentials,
+);
+
+const transport = new GrpcTransport({
+        host: "sui.blockpi.network:443",
+        channelCredentials: creds,
+});
+
+
+
+const grpcClient = new SuiGrpcClient({
+        network: 'mainnet',
+        transport,
+});
+
+// Get current epoch information
+const { response: epochInfo } = await grpcClient.ledgerService.getEpoch({});
+```

@@ -54,8 +54,7 @@ Oldest non-pruned block height of the chain
 
 Representation of a successful healthcheck
 
-**message** string\
-
+**message** string<br>
 
 #### Example:
 

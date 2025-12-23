@@ -14,4 +14,4 @@ Contact us on [Discord ](https://discord.com/invite/xTvGVrGVZv)or open a [suppor
 
 ## We're hiring
 
-If you are interested to be one of us, please send your resume to <mark style="color:green;">**jobs@blockpi.io**</mark>.\
+If you are interested to be one of us, please send your resume to <mark style="color:green;">**jobs@blockpi.io**</mark>.<br>

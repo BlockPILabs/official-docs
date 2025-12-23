@@ -24,7 +24,7 @@ If you require access to data from earlier blocks, you can utilize the **Archive
 
 Enabling Archive mode will route all requests sent to this API key to the archive nodes of the blockchain network. It's important to note that there is a **30% increase in RU consumption**, since running an archive node requires significant storage capacity.&#x20;
 
-In order to optimize efficiency, we recommend activating Archive mode only when necessary, or generate an individual API key to send the archive requests. Check [best-practices.md](best-practices.md "mention") to more efficiently use the feature. Additionally, processing times may be longer due to the substantial amount of data involved. Check [here ](../../build/supported-networks-and-advanced-features.md)for the full list of chains that the Archive mode is supported.
+In order to optimize efficiency, we recommend activating Archive mode only when necessary, or generate an individual API key to send the archive requests. Check [best-practices.md](../best-practices.md "mention") to more efficiently use the feature. Additionally, processing times may be longer due to the substantial amount of data involved. Check [here ](../../build/supported-networks-and-advanced-features.md)for the full list of chains that the Archive mode is supported.
 
 By default, the Archive mode is set to off. To enable it, simply click on the Archive mode symbol corresponding to the endpoint in the API Key list.
 
@@ -65,7 +65,6 @@ To use these functions, go to the Endpoint List of the user's dashboard, click t
 
 <figure><img src="../../.gitbook/assets/advanced features 2.png" alt=""><figcaption></figcaption></figure>
 
-You are able to switch it to Normal, MEV Protection or Global Cast. Only one of the three can be selected.\
-
+You are able to switch it to Normal, MEV Protection or Global Cast. Only one of the three can be selected.<br>
 
 <figure><img src="../../.gitbook/assets/advanced features 3.png" alt=""><figcaption></figcaption></figure>

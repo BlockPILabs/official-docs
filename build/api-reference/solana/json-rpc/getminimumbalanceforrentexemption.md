@@ -14,8 +14,7 @@ object - optional - Configuration object
 
 u64 - Minimum lamports required in the Account to remain rent free
 
-\
-
+<br>
 
 #### Example:
 

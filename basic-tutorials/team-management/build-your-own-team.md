@@ -14,8 +14,7 @@ Once a Team is established, your account will automatically become a Team accoun
 
 ## Add member
 
-Input BlockPI UID or an email address to invite your team member to join the team. \
-
+Input BlockPI UID or an email address to invite your team member to join the team. <br>
 
 <figure><img src="../../.gitbook/assets/Team 2.png" alt=""><figcaption></figcaption></figure>
 
