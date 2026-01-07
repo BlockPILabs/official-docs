@@ -2,6 +2,7 @@
 description: >-
   This page serves as a Flow EVM API documentation index and lists the available
   JSON-RPC methods.
+hidden: true
 ---
 
 # Flow EVM
