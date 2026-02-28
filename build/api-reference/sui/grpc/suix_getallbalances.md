@@ -18,7 +18,7 @@ transaction - object of [ExecutedTransaction](https://docs.sui.io/references/ful
 
 {% code overflow="wrap" %}
 ```json
-grpcurl -proto .sui/rpc/v2beta2/transaction_execution_service.proto 
+grpcurl -proto .sui/rpc/v2/transaction_execution_service.proto 
 -H "x-token: YOUR_TOKEN_VALUE"
 -d '{
     "transaction": { ...  },

@@ -18,7 +18,7 @@ treasury - [CoinTreasury](https://docs.sui.io/references/fullnode-protocol#sui-r
 
 {% code overflow="wrap" %}
 ```json
-grpcurl -proto .sui/rpc/v2beta2/live_data_service.proto
+grpcurl -proto .sui/rpc/v2/live_data_service.proto
 -H "x-token: YOUR_TOKEN_VALUE" 
 -d 
 '{

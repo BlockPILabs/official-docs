@@ -14,7 +14,7 @@
 
 {% code overflow="wrap" %}
 ```json
-grpcurl -proto .sui/rpc/v2beta2/ledger_service.proto 
+grpcurl -proto .sui/rpc/v2/ledger_service.proto 
 -H "x-token: YOUR_TOKEN_VALUE" 
 -d 
 '{

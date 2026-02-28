@@ -20,7 +20,7 @@
 
 {% code overflow="wrap" %}
 ```json
-grpcurl -proto .sui/rpc/v2beta2/signature_verification_service.proto
+grpcurl -proto .sui/rpc/v2/signature_verification_service.proto
 -H "x-token: YOUR_TOKEN_VALUE" 
 -d 
 '{
