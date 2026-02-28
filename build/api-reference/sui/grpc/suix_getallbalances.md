@@ -2,7 +2,7 @@
 
 #### **Parameters:**
 
-**read\_mask** - Mask specifying which fields to read. If no mask is specified, defaults to finality.
+**read\_mask** - Mask specifying which fields to read. If no mask is specified, defaults to `effects.status,checkpoint`.
 
 **signatures** - Set of UserSigantures authorizing the execution of the provided transaction
 
@@ -30,6 +30,6 @@ grpcurl -proto .sui/rpc/v2/transaction_execution_service.proto
       "show_balance_changes": true
   }
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.LedgerService/ExecuteTransaction
+sui.blockpi.network:443 sui.rpc.v2.TransactionExecutionService/ExecuteTransaction
 ```
 {% endcode %}

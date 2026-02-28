@@ -27,6 +27,6 @@ grpcurl -proto .sui/rpc/v2/signature_verification_service.proto
   "signature": [ ... ]
 
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.SignatureVerificationService/VerifySignature
+sui.blockpi.network:443 sui.rpc.v2.SignatureVerificationService/VerifySignature
 ```
 {% endcode %}

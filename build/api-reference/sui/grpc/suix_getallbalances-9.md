@@ -18,13 +18,13 @@ treasury - [CoinTreasury](https://docs.sui.io/references/fullnode-protocol#sui-r
 
 {% code overflow="wrap" %}
 ```json
-grpcurl -proto .sui/rpc/v2/live_data_service.proto
+grpcurl -proto .sui/rpc/v2/state_service.proto
 -H "x-token: YOUR_TOKEN_VALUE" 
 -d 
 '{
     "coin_type": "0x2::sui::SUI"
 
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.LiveDataService/GetCoinInfo
+sui.blockpi.network:443 sui.rpc.v2.StateService/GetCoinInfo
 ```
 {% endcode %}

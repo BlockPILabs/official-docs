@@ -21,6 +21,6 @@ grpcurl -proto .sui/rpc/v2/ledger_service.proto
     "digests": "6YVzczqTRTB88X1H5a4LGnKVTZoL7hfVDJ96DpHFU7Gy"
  
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.LedgerService/BatchGetTransactions
+sui.blockpi.network:443 sui.rpc.v2.LedgerService/BatchGetTransactions
 ```
 {% endcode %}

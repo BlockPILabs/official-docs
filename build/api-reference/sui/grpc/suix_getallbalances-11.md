@@ -20,13 +20,13 @@
 
 {% code overflow="wrap" %}
 ```json
-grpcurl -proto .sui/rpc/v2/live_data_service.proto
+grpcurl -proto .sui/rpc/v2/state_service.proto
 -H "x-token: YOUR_TOKEN_VALUE" 
 -d 
 '{
     "parent": "0x0feb54a725aa357ff2f5bc6bb023c05b310285bd861275a30521f339a434ebb3"
 
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.LiveDataService/ListDynamicFields
+sui.blockpi.network:443 sui.rpc.v2.StateService/ListDynamicFields
 ```
 {% endcode %}

@@ -13,6 +13,7 @@ Please download the latest .proto file from the official GitHub and save it loca
 ### TransactionExecutionService <a href="#coin-query-api" id="coin-query-api"></a>
 
 * [suix\_getallbalances.md](suix_getallbalances.md "mention")
+* [suix\_getallbalances-13.md](suix_getallbalances-13.md "mention")
 
 ### LedgerService
 
@@ -24,14 +25,25 @@ Please download the latest .proto file from the official GitHub and save it loca
 * [suix\_getallbalances-6.md](suix_getallbalances-6.md "mention")
 * [suix\_getallbalances-7.md](suix_getallbalances-7.md "mention")
 
-### LiveDataService <a href="#governance-read-api" id="governance-read-api"></a>
+### StateService
 
 * [suix\_getallbalances-8.md](suix_getallbalances-8.md "mention")
 * [suix\_getallbalances-9.md](suix_getallbalances-9.md "mention")
 * [suix\_getallbalances-10.md](suix_getallbalances-10.md "mention")
 * [suix\_getallbalances-11.md](suix_getallbalances-11.md "mention")
 * [suix\_getallbalances-12.md](suix_getallbalances-12.md "mention")
-* [suix\_getallbalances-13.md](suix_getallbalances-13.md "mention")
+
+### MovePackageService
+
+* [suix\_getallbalances-13-1.md](suix_getallbalances-13-1.md "mention")
+* [suix\_getallbalances-13-2.md](suix_getallbalances-13-2.md "mention")
+* [suix\_getallbalances-13-3.md](suix_getallbalances-13-3.md "mention")
+* [suix\_getallbalances-13-4.md](suix_getallbalances-13-4.md "mention")
+
+### NameService
+
+* [suix\_getallbalances-13-5.md](suix_getallbalances-13-5.md "mention")
+* [suix\_getallbalances-13-6.md](suix_getallbalances-13-6.md "mention")
 
 ### SubscriptionService <a href="#move-utils" id="move-utils"></a>
 

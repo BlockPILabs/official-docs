@@ -23,6 +23,6 @@ grpcurl -proto .sui/rpc/v2/ledger_service.proto
 '{
 
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.LedgerService/GetCheckpoint
+sui.blockpi.network:443 sui.rpc.v2.LedgerService/GetCheckpoint
 ```
 {% endcode %}

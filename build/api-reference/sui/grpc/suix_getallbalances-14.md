@@ -21,6 +21,6 @@ grpcurl -proto .sui/rpc/v2/subscription_service.proto
   
 
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.SubscriptionService/SubscribeCheckpoints
+sui.blockpi.network:443 sui.rpc.v2.SubscriptionService/SubscribeCheckpoints
 ```
 {% endcode %}

@@ -22,13 +22,13 @@ objects - [Object](https://docs.sui.io/references/fullnode-protocol#sui-rpc-v2be
 
 {% code overflow="wrap" %}
 ```json
-grpcurl -proto .sui/rpc/v2/live_data_service.proto
+grpcurl -proto .sui/rpc/v2/state_service.proto
 -H "x-token: YOUR_TOKEN_VALUE" 
 -d 
 '{
     "owner": "0x0feb54a725aa357ff2f5bc6bb023c05b310285bd861275a30521f339a434ebb3"
 
 }' 
-sui.blockpi.network:443 sui.rpc.v2beta.LiveDataService/ListOwnedObjects
+sui.blockpi.network:443 sui.rpc.v2.StateService/ListOwnedObjects
 ```
 {% endcode %}
