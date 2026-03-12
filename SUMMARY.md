@@ -1555,6 +1555,7 @@
       * [ReverseLookupName](build/api-reference/sui/grpc/suix_getallbalances-13-6.md)
       * [SubscribeCheckpoints](build/api-reference/sui/grpc/suix_getallbalances-14.md)
       * [VerifySignature](build/api-reference/sui/grpc/suix_getallbalances-15.md)
+    * [GraphQL](build/api-reference/sui/graphql.md)
   * [Solana](build/api-reference/solana/README.md)
     * [JSON-RPC](build/api-reference/solana/json-rpc/README.md)
       * [getAccountInfo](build/api-reference/solana/json-rpc/getaccountinfo.md)
