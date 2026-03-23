@@ -36,7 +36,7 @@ BlockPI now provides Bundler Service for Account Abstraction users on **OP Mainn
 
 To customize it, go to the BlockPI [dashboard](https://dashboard.blockpi.io), click the endpoint which has the 'ERC-4337' mark. You will be directed to the subpage of the endpoint. (If you do not have any endpoint, please refer to the [Generate API Key](generate-an-api-key.md) page to generate a private endpoint).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the subpage of the endpoint, there is the 'AA Service' section, which presents you with five different options to choose.&#x20;
 
