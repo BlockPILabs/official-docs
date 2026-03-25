@@ -10,6 +10,12 @@ description: >-
 Please download the latest .proto file from the official GitHub and save it locally. [https://github.com/MystenLabs/sui-apis/tree/main/proto](https://github.com/MystenLabs/sui-apis/tree/main/proto)
 {% endhint %}
 
+{% hint style="info" %}
+Please note that JSON-RPC APIs are only for pruned data. Users requiring archival data should create a SUI Mainnet Archive endpoint and use gRPC.
+
+SUI has announced plans to deprecate the JSON-RPC API. Please refer to the official SUI announcement for the specific timeline. As an official partner, BlockPI will align with SUI’s plan to phase out JSON-RPC support.
+{% endhint %}
+
 ### TransactionExecutionService <a href="#coin-query-api" id="coin-query-api"></a>
 
 * [suix\_getallbalances.md](suix_getallbalances.md "mention")

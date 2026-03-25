@@ -6,6 +6,12 @@ description: >-
 
 # JSON-RPC
 
+{% hint style="info" %}
+Please note that JSON-RPC APIs are only for pruned data. Users requiring archival data should create a SUI Mainnet Archive endpoint and use gRPC.
+
+SUI has announced plans to deprecate the JSON-RPC API. Please refer to the official SUI announcement for the specific timeline. As an official partner, BlockPI will align with SUI’s plan to phase out JSON-RPC support.
+{% endhint %}
+
 ### Coin Query API <a href="#coin-query-api" id="coin-query-api"></a>
 
 * [suix\_getAllBalances](suix_getallbalances.md)
