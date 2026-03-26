@@ -2065,6 +2065,7 @@
 ***
 
 * [Dedicated Node](dedicated-node.md)
+* [Advanced API](advanced-api.md)
 
 ## Pricing
 
