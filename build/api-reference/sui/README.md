@@ -2,11 +2,20 @@
 
 BlockPI now supports full-stack data services for SUI, including full nodes, archival services, and indexer services. For details on their respective applicable use cases, please refer to the official [documentation](https://docs.sui.io/guides/developer/accessing-data/).&#x20;
 
-Due to the characteristics of the data architecture, the endpoints for the full node and the indexer are within "SUI Mainnet". While using the archival service, users need to create a separate network endpoint with the name “SUI Mainnet Archive”.
+| Stack                   | API            | Data range     | Supported region |
+| ----------------------- | -------------- | -------------- | ---------------- |
+| Mainnet Full node       | JSON-RPC, gRPC | Pruned         | EU, APAC         |
+| Mainnet Archive Service | gRPC           | Archive        | EU, APAC         |
+| Mainnet Indexer         | GraphQL        | Latest 90 days | EU, APAC         |
+| Testnet Full node       | JSON-RPC, gRPC | Pruned         | EU, APAC         |
+
+Due to the characteristics of the data architecture, the endpoints for the full node and the indexer are within "**SUI Mainnet**". While using the archival service, users need to create a separate network endpoint with the name “**SUI Mainnet Archive**”.
 
 Please note that JSON-RPC APIs are only for pruned data and can only be used with a Mainnet endpoint. Users requiring archival data should create a SUI Mainnet Archive endpoint and use gRPC.
 
-SUI has announced plans to deprecate the JSON-RPC API. Please refer to the official SUI announcement for the specific timeline. As an official partner, BlockPI will align with SUI’s plan to phase out JSON-RPC support.<br>
+{% hint style="info" %}
+SUI has announced plans to deprecate the JSON-RPC API. Please refer to the official SUI announcement for the specific timeline. As an official partner, BlockPI will align with SUI’s plan to phase out JSON-RPC support.
+{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
