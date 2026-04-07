@@ -277,18 +277,6 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Block Explorer**: [https://andromeda-explorer.metis.io](https://andromeda-explorer.metis.io)
 {% endtab %}
 
-{% tab title="Oasys" %}
-**Network Name**: BlockPI Oasys Mainnet
-
-**Chain ID**: 248
-
-**New RPC URL**: https://oasys.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol**: OAS
-
-**Block Explorer**: [https://scan.oasys.games/](https://scan.oasys.games/)
-{% endtab %}
-
 {% tab title="OP" %}
 <table><thead><tr><th width="559">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI OP Mainnet</p><p><strong>Chain ID</strong>: 10</p><p><strong>New RPC URL</strong>: https://optimism.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://optimistic.etherscan.io/">https://optimistic.etherscan.io/</a></p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI OP Sepolia</p><p><strong>Chain ID</strong>: 11155420</p><p><strong>New RPC URL</strong>: https://optimism-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://optimism-sepolia.blockscout.com/">https://optimism-sepolia.blockscout.com/</a></p></td><td>Sepolia</td></tr></tbody></table>
 {% endtab %}
