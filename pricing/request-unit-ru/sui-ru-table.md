@@ -4,4 +4,10 @@
 
 <table><thead><tr><th width="420">gRPC Method</th><th>RU Price</th></tr></thead><tbody><tr><td>All methods </td><td>50</td></tr></tbody></table>
 
+{% hint style="info" %}
+The traffic for Sui's archival service is relatively expensive, so we designed a billing model similar to eth\_getLogs. The base price for each gRPC method is 50, but if the data volume exceeds 100KB,it will be calculated by increasing the RU consumption by **100% for every additional 100 KB**.
+{% endhint %}
+
+{% hint style="info" %}
 **SubscribeCheckpoints** is charged based on the data size. The rate is as default as 5 RUs per 250 byte.
+{% endhint %}

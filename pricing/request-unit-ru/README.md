@@ -24,6 +24,10 @@ The resource consumption of an Archive node is significantly higher than that of
 
 The eth\_getLogs method is used to request logs from smart contracts, and the amount of data it generates can range from a few KB to several MB. Typically, requests do not exceed 100 KB. For requests that generate a significant amount of data, there will be additional RU consumption. Specifically, when the data volume exceeds 200 KB, it will be calculated by increasing the RU consumption by **100% for every additional 200 KB**.
 
+#### SUI Archive Mainnet
+
+The traffic for Sui's archival service is relatively expensive, so we designed a billing model similar to eth\_getLogs. The base price for each gRPC method is 50, but if the data volume exceeds 100KB,it will be calculated by increasing the RU consumption by **100% for every additional 100 KB**.
+
 ## Low RU balance reminder
 
 The low RU balance reminder will be triggered when your RU balance drops to 10% of the total maximum RU amount from the RU packages currently available in your account. The system will send you an email as a reminder. This reminder is one-time only, and it will only be triggered again after you purchase a new package.
