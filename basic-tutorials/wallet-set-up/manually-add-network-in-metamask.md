@@ -63,8 +63,20 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 <table><thead><tr><th width="586.5">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum One</p><p><strong>Chain ID</strong>: 42161</p><p><strong>New RPC URL</strong>: https://arbitrum.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://arbiscan.io/">https://arbiscan.io/</a></p></td><td>One</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum Nova</p><p><strong>Chain ID</strong>: 42170</p><p><strong>New RPC URL</strong>: https://arbitrum-nova.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://nova.arbiscan.io/">https://nova.arbiscan.io/</a></p></td><td>Nova</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum Sepolia</p><p><strong>Chain ID</strong>: 421614</p><p><strong>New RPC URL</strong>: https://arbitrum-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://sepolia-explorer.arbitrum.io">https://sepolia-explorer.arbitrum.io</a></p></td><td>Sepolia</td></tr></tbody></table>
 {% endtab %}
 
+{% tab title="Arc" %}
+**Network Name**: BlockPI Arc Testnet
+
+**Chain ID**: 5042002
+
+**New RPC URL**: https://arc-testnet.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol:** USDC
+
+**Block Explorer**: [https://www.arc.network/](https://www.arc.network/)
+{% endtab %}
+
 {% tab title="Avalanche" %}
-**etwork Name**: BlockPI Avalanche Mainnet
+**Network Name**: BlockPI Avalanche Mainnet
 
 **Chain ID**: 43114
 
