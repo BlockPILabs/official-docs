@@ -20,6 +20,10 @@ Other RPC methods that node client supports but not specified in this table will
 
 The resource consumption of an Archive node is significantly higher than that of a full node. Therefore, enabling Archive Mode will result in **30% additional RU consumption**.
 
+#### Excess traffic charge per method
+
+When a single method exceeds a certain traffic threshold, we will charge additional RUs based on the excess traffic. The specific method is as follows: when the data volume exceeds 1 MB, it will be calculated by increasing the RU consumption by **100% for every additional 1 MB**.
+
 #### eth\_getLogs
 
 The eth\_getLogs method is used to request logs from smart contracts, and the amount of data it generates can range from a few KB to several MB. Typically, requests do not exceed 100 KB. For requests that generate a significant amount of data, there will be additional RU consumption. Specifically, when the data volume exceeds 200 KB, it will be calculated by increasing the RU consumption by **100% for every additional 200 KB**.
