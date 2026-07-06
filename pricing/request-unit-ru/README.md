@@ -1,5 +1,23 @@
 ---
 icon: wave-square
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Request Unit (RU)
@@ -11,7 +29,7 @@ If you need to access the data from earlier blocks, you can follow this instruct
 Archive mode will route the requests to archive nodes of the blockchain. It typically takes a **longer time** to process due to the huge amount of data. Since enabling Archive Mode will result in 30% additional RU consumption, we recommend users open Archive Mode only when it’s necessary. Check [best-practices.md](../../basic-tutorials/best-practices.md "mention") to better efficiently use the feature.
 
 {% hint style="info" %}
-Other RPC methods that node client supports but not specified in this table will be charged based on the data size. The rate is 5 RUs per 250 byte.
+Other RPC methods that node client supports but not specified in this table (For example, eth\_subscribe)will be charged based on the data size. The rate is 5 RUs per 250 byte.&#x20;
 {% endhint %}
 
 ## Additional RU consumption
