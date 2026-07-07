@@ -1,5 +1,23 @@
 ---
 icon: wallet
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Manually Add Network in MetaMask
@@ -294,7 +312,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="Polygon" %}
-<table><thead><tr><th width="577">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Mainnet</p><p><strong>Chain ID</strong>: 137</p><p><strong>New RPC URL</strong>: https://polygon.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://polygonscan.com/">https://polygonscan.com/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Amoy</p><p><strong>Chain ID</strong>: 80002</p><p><strong>New RPC URL</strong>: https://polygon-amoy.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://www.oklink.com/amoy">https://www.oklink.com/amoy</a></p></td><td>Amoy</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Mainnet</p><p><strong>Chain ID</strong>: 1101</p><p><strong>New RPC URL</strong>: https://polygon-zkevm.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://zkevm.polygonscan.com/">https://zkevm.polygonscan.com/</a></p></td><td>zkEVM Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon zkEVM Cardona</p><p><strong>Chain ID</strong>: 2442</p><p><strong>New RPC URL</strong>: https://polygon-zkevm-cardona.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://cardona-zkevm.polygonscan.com">https://cardona-zkevm.polygonscan.com</a></p></td><td>zkEVM<br>Cardona</td></tr></tbody></table>
+<table><thead><tr><th width="577">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Mainnet</p><p><strong>Chain ID</strong>: 137</p><p><strong>New RPC URL</strong>: https://polygon.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://polygonscan.com/">https://polygonscan.com/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Amoy</p><p><strong>Chain ID</strong>: 80002</p><p><strong>New RPC URL</strong>: https://polygon-amoy.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://www.oklink.com/amoy">https://www.oklink.com/amoy</a></p></td><td>Amoy</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Untitled" %}
