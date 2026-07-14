@@ -315,7 +315,7 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 <table><thead><tr><th width="577">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Mainnet</p><p><strong>Chain ID</strong>: 137</p><p><strong>New RPC URL</strong>: https://polygon.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://polygonscan.com/">https://polygonscan.com/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Polygon Amoy</p><p><strong>Chain ID</strong>: 80002</p><p><strong>New RPC URL</strong>: https://polygon-amoy.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: MATIC</p><p><strong>Block Explorer</strong>: <a href="https://www.oklink.com/amoy">https://www.oklink.com/amoy</a></p></td><td>Amoy</td></tr></tbody></table>
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="Plasma" %}
 **Network Name**: BlockPI Plasma Mainnnet
 
 **Chain ID**: 9745
@@ -325,6 +325,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Currency symbol**: XPL
 
 **Block Explorer**: [https://www.plasma.to](https://www.plasma.to)
+{% endtab %}
+
+{% tab title="Robinhood" %}
+**Network Name**: BlockPI Robinhood Mainnnet
+
+**Chain ID**: 4663
+
+**New RPC URL**: https://robinhood.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: ETH
+
+**Block Explorer**: [https://robinhoodchain.blockscout.com/](https://robinhoodchain.blockscout.com/)
 {% endtab %}
 
 {% tab title="Sei" %}
