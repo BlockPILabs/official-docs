@@ -3,6 +3,24 @@ description: >-
   We support web3 login which means you can log in with a wallet. Only an
   address which has been linked to a registered email are able to log in.
 icon: wallet
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Link and Login with Web3 Wallet

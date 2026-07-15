@@ -4,6 +4,24 @@ description: >-
   Deposit, purchasing RU packages, insufficient RU, insufficient wallet balance,
   and their triggering thresholds.
 icon: envelope
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Email notifications setting
