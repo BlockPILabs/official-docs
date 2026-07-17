@@ -43,3 +43,10 @@ description: >-
 
 * [web3\_clientVersion](web3_clientversion.md)
 * [web3\_sha3](web3_sha3.md)
+
+#### debug
+
+* [debug\_traceblockbynumber.md](debug_traceblockbynumber.md "mention")
+* [debug\_tracecall.md](debug_tracecall.md "mention")
+* [debug\_tracetransaction.md](debug_tracetransaction.md "mention")
+* [debug\_traceblockbyhash.md](debug_traceblockbyhash.md "mention")
