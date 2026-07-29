@@ -46,6 +46,12 @@ When a single method exceeds a certain traffic threshold, we will charge additio
 
 The eth\_getLogs method is used to request logs from smart contracts, and the amount of data it generates can range from a few KB to several MB. Typically, requests do not exceed 100 KB. For requests that generate a significant amount of data, there will be additional RU consumption. Specifically, when the data volume exceeds 200 KB, it will be calculated by increasing the RU consumption by **100% for every additional 200 KB**.
 
+#### Polygon MEV protection
+
+Polygon network now supports MEV protection. This feature affects the eth\_sendRawTransaction method. Once enabled, each transaction submitted via eth\_sendRawTransaction will be charged at 25,000 RU per request.
+
+The fee exists because MEV protection in the Polygon ecosystem is exclusively provided by the Polygon official as a paid service — there is no alternative third-party option available. Although this comes with an additional cost, the feature provides 100% protection against MEV attacks, safeguarding traders from sandwich attacks, front-running, and other malicious activities. It is also backed by Polygon's official endorsement, ensuring reliability and security.
+
 #### SUI Archive Mainnet
 
 The traffic for Sui's archival service is relatively expensive, so we designed a billing model similar to eth\_getLogs. The base price for each gRPC method is 50, but if the data volume exceeds 100KB,it will be calculated by increasing the RU consumption by **100% for every additional 100 KB**.
