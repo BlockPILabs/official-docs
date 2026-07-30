@@ -27,6 +27,7 @@
   * [Email notifications setting](basic-tutorials/account-management/email-notifications-setting.md)
 * [Team Management](basic-tutorials/team-management/README.md)
   * [Build your own Team](basic-tutorials/team-management/build-your-own-team.md)
+* [BlockPI Loyalty Points](basic-tutorials/blockpi-loyalty-points.md)
 * [Best Practices](basic-tutorials/best-practices.md)
 
 ## Build

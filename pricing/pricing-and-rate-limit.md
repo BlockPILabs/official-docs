@@ -43,8 +43,8 @@ Regardless of which RU package the user is using, when there are multiple RU pac
 Here are scenarios to help you understand:
 
 * _**Scenario 1**_\
-  &#xNAN;_&#x49;f you have a premium package in your account, your rate will be 2500RPS and 100000 RUPS, even you are consuming the monthly free package._
+  _&#x49;f you have a premium package in your account, your rate will be 2500RPS and 100000 RUPS, even you are consuming the monthly free package._
 * _**Scenario 2**_\
-  &#xNAN;_&#x59;ou are using the monthly free package but have made deposit and set your Auto-Renew to Pay As You Go. Your rate limit will be 20 RPS and 400 RUPS._
+  _&#x59;ou are using the monthly free package but have made deposit and set your Auto-Renew to Pay As You Go. Your rate limit will be 20 RPS and 400 RUPS._
 * _**Scenario 3**_\
-  &#xNAN;_&#x59;ou are using the monthly free package and set your Auto-Renew to Pay As You Go or any paid package, but your wallet balance is zero. Your rate limit will be 20RPS and 400RUPS._
+  _&#x59;ou are using the monthly free package and set your Auto-Renew to Pay As You Go or any paid package, but your wallet balance is zero. Your rate limit will be 20RPS and 400RUPS._
