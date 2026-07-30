@@ -4,7 +4,7 @@ description: >-
   available JSON-RPC methods.
 ---
 
-# Hyperliquid EVM
+# EVM
 
 ### eth <a href="#eth" id="eth"></a>
 
@@ -42,16 +42,16 @@ description: >-
 
 ### debug
 
-* [debug\_tracecall.md](../story-2/debug_tracecall.md "mention")
-* [debug\_traceblockbynumber.md](../story-2/debug_traceblockbynumber.md "mention")
-* [debug\_traceblockbyhash.md](../story-2/debug_traceblockbyhash.md "mention")
-* [debug\_tracetransaction.md](../story-2/debug_tracetransaction.md "mention")
+* [debug\_tracecall.md](debug_tracecall.md "mention")
+* [debug\_traceblockbynumber.md](debug_traceblockbynumber.md "mention")
+* [debug\_traceblockbyhash.md](debug_traceblockbyhash.md "mention")
+* [debug\_tracetransaction.md](debug_tracetransaction.md "mention")
 
 ### trace
 
-* [trace\_block.md](../story-2/trace_block.md "mention")
-* [trace\_call.md](../story-2/trace_call.md "mention")
-* [trace\_filter.md](../story-2/trace_filter.md "mention")
-* [trace\_transaction.md](../story-2/trace_transaction.md "mention")
-* [trace\_replaytransaction.md](../story-2/trace_replaytransaction.md "mention")
+* [trace\_block.md](trace_block.md "mention")
+* [trace\_call.md](trace_call.md "mention")
+* [trace\_filter.md](trace_filter.md "mention")
+* [trace\_transaction.md](trace_transaction.md "mention")
+* [trace\_replaytransaction.md](trace_replaytransaction.md "mention")
 
