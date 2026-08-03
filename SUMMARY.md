@@ -928,6 +928,7 @@
     * [web3\_sha3](build/api-reference/story-2/web3_sha3.md)
   * [Hyperliquid](build/api-reference/hyperliquid/README.md)
     * [info](build/api-reference/hyperliquid/info/README.md)
+      * [activeAssetData](build/api-reference/hyperliquid/info/activeassetdata.md)
       * [allMids](build/api-reference/hyperliquid/info/allmids.md)
       * [candleSnapshot](build/api-reference/hyperliquid/info/candlesnapshot.md)
       * [delegations](build/api-reference/hyperliquid/info/delegations.md)
