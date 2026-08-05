@@ -48,7 +48,7 @@ The eth\_getLogs method is used to request logs from smart contracts, and the am
 
 #### Polygon MEV protection
 
-Polygon network now supports MEV protection. This feature affects the eth\_sendRawTransaction method. Once enabled, each transaction submitted via eth\_sendRawTransaction will be charged at 25,000 RU per request.
+Polygon network now supports MEV protection. This feature affects the eth\_sendRawTransaction method. Once enabled, each transaction submitted via eth\_sendRawTransaction will be charged at 250,000 RU per request.
 
 The fee exists because MEV protection in the Polygon ecosystem is exclusively provided by the Polygon official as a paid service — there is no alternative third-party option available. Although this comes with an additional cost, the feature provides 100% protection against MEV attacks, safeguarding traders from sandwich attacks, front-running, and other malicious activities. It is also backed by Polygon's official endorsement, ensuring reliability and security.
 
