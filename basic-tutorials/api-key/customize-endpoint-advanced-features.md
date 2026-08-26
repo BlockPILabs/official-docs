@@ -1,8 +1,7 @@
 ---
 description: >-
   BlockPI provides users with ample flexibility to customize advanced features
-  of their Endpoints, including Archive mode, MEV protection, ERC-4337 Bundler
-  service, and more.
+  of their Endpoints, including Archive mode, MEV protection, and more.
 icon: galaxy
 ---
 
@@ -29,24 +28,6 @@ In order to optimize efficiency, we recommend activating Archive mode only when 
 By default, the Archive mode is set to off. To enable it, simply click on the Archive mode symbol corresponding to the endpoint in the API Key list.
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
-
-## ERC-4337 Bundler Service
-
-BlockPI now provides Bundler Service for Account Abstraction users on **OP Mainnet**, **Base Mainnet,** **Polygon Mainnet and Taiko Hekla**. The BlockPI team integrated different open-source Bundler clients in the BlockPI network, providing users with the flexibility to choose their preferred client. The currently supported clients are from Etherspot, Candide, Stackup and Pimlico.
-
-To customize it, go to the BlockPI [dashboard](https://dashboard.blockpi.io), click the endpoint which has the 'ERC-4337' mark. You will be directed to the subpage of the endpoint. (If you do not have any endpoint, please refer to the [Generate API Key](generate-an-api-key.md) page to generate a private endpoint).&#x20;
-
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-On the subpage of the endpoint, there is the 'AA Service' section, which presents you with five different options to choose.&#x20;
-
-'Auto' is the best practice maintained by the BlockPI team. By selecting 'Auto,' BlockPI will automatically assign the most optimal bundler based on each connectivity condition.
-
-<figure><img src="../../.gitbook/assets/advanced features 1.png" alt=""><figcaption></figcaption></figure>
-
-The remaining four are Bundler clients by Stackup, Candide, Pimlico, and Etherspot. When you choose one of these clients, your requests will be processed exclusively by the selected Bundler client.&#x20;
-
-Please check [this page](../../build/api-reference/polygon/) for Polygon Bundler RPC references.&#x20;
 
 ## MEV Protection & Global Cast
 

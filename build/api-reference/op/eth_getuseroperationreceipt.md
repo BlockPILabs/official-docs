@@ -1,5 +1,6 @@
 ---
 description: returns a UserOperation by its hash returned from eth_sendUserOperation
+hidden: true
 ---
 
 # eth\_getUserOperationReceipt

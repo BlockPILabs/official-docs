@@ -1,5 +1,6 @@
 ---
 description: returns an array of the entryPoint addresses supported by the bundler
+hidden: true
 ---
 
 # eth\_supportedEntryPoints

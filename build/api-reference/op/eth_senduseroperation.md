@@ -1,5 +1,6 @@
 ---
 description: asks the bundler to sign and submit a User Operation
+hidden: true
 ---
 
 # eth\_sendUserOperation

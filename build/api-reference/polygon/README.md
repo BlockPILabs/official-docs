@@ -66,11 +66,3 @@ description: >-
 * [zkevm\_isBlockVirtualized](zkevm_isblockvirtualized.md)
 * [zkevm\_verifiedBatchNumber](zkevm_verifiedbatchnumber.md)
 * [zkevm\_virtualBatchNumber](zkevm_virtualbatchnumber.md)
-
-## **Bundler Service** <a href="#bundler-service" id="bundler-service"></a>
-
-* [eth\_sendUserOperation](eth_senduseroperation.md)
-* [eth\_estimateUserOperationGas](eth_estimateuseroperationgas.md)
-* [eth\_getUserOperationByHash](eth_getuseroperationbyhash.md)
-* [eth\_getUserOperationReceipt](eth_getuseroperationreceipt.md)
-* [eth\_supportedEntryPoints](eth_supportedentrypoints.md)

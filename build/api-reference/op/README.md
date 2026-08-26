@@ -59,11 +59,3 @@ description: >-
 * [debug\_traceBlockByHash](debug_traceblockbyhash.md)
 * [debug\_traceBlockByNumber](debug_traceblockbynumber.md)
 * [debug\_traceTransaction](debug_tracetransaction.md)
-
-### Bundler Service
-
-* [eth\_sendUserOperation](eth_senduseroperation.md)
-* [eth\_estimateUserOperationGas](eth_estimateuseroperationgas.md)
-* [eth\_getUserOperationByHash](eth_getuseroperationbyhash.md)
-* [eth\_getUserOperationReceipt](eth_getuseroperationreceipt.md)
-* [eth\_supportedEntryPoints](eth_supportedentrypoints.md)

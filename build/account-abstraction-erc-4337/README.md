@@ -1,4 +1,5 @@
 ---
+hidden: true
 icon: ethereum
 layout:
   width: default

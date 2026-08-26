@@ -2,6 +2,7 @@
 description: >-
   generates and returns an estimate of how much gas is necessary to allow the
   transaction to complete, given a UserOperation.
+hidden: true
 ---
 
 # eth\_estimateUserOperationGas
