@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Manually Add Network in MetaMask
@@ -78,19 +80,11 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 {% endtab %}
 
 {% tab title="Arbitrum" %}
-<table><thead><tr><th width="586.5">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum One</p><p><strong>Chain ID</strong>: 42161</p><p><strong>New RPC URL</strong>: https://arbitrum.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://arbiscan.io/">https://arbiscan.io/</a></p></td><td>One</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum Nova</p><p><strong>Chain ID</strong>: 42170</p><p><strong>New RPC URL</strong>: https://arbitrum-nova.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://nova.arbiscan.io/">https://nova.arbiscan.io/</a></p></td><td>Nova</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Arbitrum Sepolia</p><p><strong>Chain ID</strong>: 421614</p><p><strong>New RPC URL</strong>: https://arbitrum-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explorer</strong>: <a href="https://sepolia-explorer.arbitrum.io">https://sepolia-explorer.arbitrum.io</a></p></td><td>Sepolia</td></tr></tbody></table>
+
 {% endtab %}
 
 {% tab title="Arc" %}
-**Network Name**: BlockPI Arc Testnet
-
-**Chain ID**: 5042002
-
-**New RPC URL**: https://arc-testnet.blockpi.network/v1/rpc/\<your key>
-
-**Currency symbol:** USDC
-
-**Block Explorer**: [https://www.arc.network/](https://www.arc.network/)
+<table><thead><tr><th width="548">Specs</th><th>Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Arc Mainnet</p><p><strong>Chain ID</strong>: 5042</p><p><strong>New RPC URL</strong>: https://arc.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol:</strong> USDC</p><p><strong>Block Explorer</strong>: https://www.arc.io</p></td><td>Mainnet</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Arc Testnet</p><p><strong>Chain ID</strong>: 5042002</p><p><strong>New RPC URL</strong>: https://arc-testnet.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol:</strong> USDC</p><p><strong>Block Explorer</strong>: <a href="https://www.arc.network/">https://www.arc.network/</a></p></td><td>Testnet</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Avalanche" %}
@@ -163,6 +157,11 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 **Currency symbol**: CRO
 
 **Block Explorer**: [https://cronoscan.com](https://cronoscan.com)
+
+|   |   |
+| - | - |
+|   |   |
+|   |   |
 {% endtab %}
 {% endtabs %}
 
