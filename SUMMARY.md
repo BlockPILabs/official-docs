@@ -1826,7 +1826,6 @@
     * [/sendQuery](build/api-reference/ton/sendquery.md)
     * [/estimateFee](build/api-reference/ton/estimatefee.md)
     * [/jsonRPC](build/api-reference/ton/jsonrpc.md)
-    * [-------- v3 --------](build/api-reference/ton/v3.md)
     * [nft collections](build/api-reference/ton/nft-collections.md)
     * [nft items](build/api-reference/ton/nft-items.md)
     * [nft sales](build/api-reference/ton/nft-sales.md)
