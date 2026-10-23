@@ -2,16 +2,16 @@
 
 BlockPI now supports full-stack data services for SUI, including full nodes, archival services, and GraphQL services. For details on their respective applicable use cases, please refer to the official [documentation](https://docs.sui.io/guides/developer/accessing-data/).&#x20;
 
-<table><thead><tr><th width="142">Stack</th><th width="336">API Endpoint Format</th><th width="151">Data Range</th><th>Supported Region</th></tr></thead><tbody><tr><td>Mainnet Full node</td><td>JSON-RPC: <br>https://sui.blockpi.network/v1/rpc/&#x3C;key>,<br><br>gRPC: <br>sui.blockpi.network, {token}</td><td>Pruned</td><td>EU, APAC</td></tr><tr><td>Mainnet Archive Service</td><td>gRPC: <br>sui-archive.blockpi.network, {token}</td><td>Archive</td><td>EU, APAC</td></tr><tr><td>Mainnet GraphQL</td><td>GraphQL: <br>https://sui.blockpi.network/v1/graphql/&#x3C;key> </td><td>Latest 90 days</td><td>EU, APAC</td></tr><tr><td>Testnet Full node</td><td>JSON-RPC: <br>https://sui-testnet.blockpi.network/v1/rpc/&#x3C;key>,<br><br>gRPC: <br>sui-testnet.blockpi.network, {token}</td><td>Pruned</td><td>EU, APAC</td></tr></tbody></table>
+<table><thead><tr><th width="142">Stack</th><th width="336">API Endpoint Format</th><th width="151">Data Range</th><th>Supported Region</th></tr></thead><tbody><tr><td>Mainnet Full node</td><td>gRPC: <br>sui.blockpi.network, {token}</td><td>Pruned</td><td>EU, APAC</td></tr><tr><td>Mainnet Archive Service</td><td>gRPC: <br>sui-archive.blockpi.network, {token}</td><td>Archive</td><td>EU, APAC</td></tr><tr><td>Mainnet GraphQL</td><td>GraphQL: <br>https://sui.blockpi.network/v1/graphql/&#x3C;key> </td><td>Latest 90 days</td><td>EU, APAC</td></tr><tr><td>Testnet Full node</td><td>gRPC: <br>sui-testnet.blockpi.network, {token}</td><td>Pruned</td><td>EU, APAC</td></tr></tbody></table>
 
-Since the archival data is within an individual service, users need to create a separate network endpoint with the name “**SUI Mainnet Archive**”. While the endpoints for the full node (gRPC or deprecated JSON-RPC) and the GraphQL are within "**SUI Mainnet**". Check out the above table and the figure below.&#x20;
+Since the archival data is within an individual service, users need to create a separate network endpoint with the name “**SUI Mainnet Archive**”. While the endpoints for the full node and the GraphQL are within "**SUI Mainnet**". Check out the above table and the figure below.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Please note that JSON-RPC APIs are only for pruned data and can only be used with a full node endpoint. Users requiring archival data should create a SUI Mainnet Archive endpoint and use gRPC.
+Please note that users requiring archival data should create a SUI Mainnet Archive endpoint and use gRPC.
 
 {% hint style="info" %}
-SUI has announced plans to deprecate the JSON-RPC API. Please refer to the official SUI announcement for the specific timeline. As an official partner, BlockPI will align with SUI’s plan to phase out JSON-RPC support.
+SUI has announced plans to deprecate the JSON-RPC API. Please refer to the official SUI announcement for the specific timeline. As an official partner, BlockPI will align with SUI’s plan to phase out JSON-RPC support. If your application still points to a SUI JSON-RPC endpoint, it will no longer return data.
 {% endhint %}
 
 {% hint style="info" %}

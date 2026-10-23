@@ -2,9 +2,10 @@
 description: >-
   This page serves as a SUI JSON-RPC API documentation index and lists the
   available JSON-RPC methods.
+hidden: true
 ---
 
-# JSON-RPC
+# JSON-RPC(Mainnet & Testnet Full node)
 
 {% hint style="info" %}
 Please note that JSON-RPC APIs are only for pruned data. Users requiring archival data should create a SUI Mainnet Archive endpoint and use gRPC.
