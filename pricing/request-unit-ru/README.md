@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Request Unit (RU)
@@ -42,9 +44,9 @@ The resource consumption of an Archive node is significantly higher than that of
 
 When a single method exceeds a certain traffic threshold, we will charge additional RUs based on the excess traffic. The specific method is as follows: when the data volume exceeds 1 MB, it will be calculated by increasing the RU consumption by **100% for every additional 1 MB**.
 
-#### eth\_getLogs
+#### eth\_getLogs/TON V3 APIs
 
-The eth\_getLogs method is used to request logs from smart contracts, and the amount of data it generates can range from a few KB to several MB. Typically, requests do not exceed 100 KB. For requests that generate a significant amount of data, there will be additional RU consumption. Specifically, when the data volume exceeds 200 KB, it will be calculated by increasing the RU consumption by **100% for every additional 200 KB**.
+The eth\_getLogs method is used to request logs from smart contracts, and the amount of data it generates can range from a few KB to several MB. Typically, requests do not exceed 100 KB. For requests that generate a significant amount of data, there will be additional RU consumption. Specifically, when the data volume exceeds 200 KB, it will be calculated by increasing the RU consumption by **100% for every additional 200 KB**. Same principle for all TON V3 APIs.
 
 #### Polygon MEV protection
 
