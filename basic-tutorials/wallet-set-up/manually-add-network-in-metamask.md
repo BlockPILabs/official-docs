@@ -170,6 +170,18 @@ BlockPI Ethereum Mainnet will be on the network list. When you switch to this ne
 <table><thead><tr><th width="579">Specs</th><th width="97">Network</th></tr></thead><tbody><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Mainnet</p><p><strong>Chain ID</strong>: 1</p><p><strong>New RPC URL</strong>: https://ethereum.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbo</strong>l: ETH</p><p><strong>Block Explorer</strong>: <a href="https://etherscan.io/">https://etherscan.io/</a></p></td><td><p></p><p></p><p>Mainnet</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Sepolia</p><p><strong>Chain ID</strong>: 11155111</p><p><strong>New RPC URL</strong>: https://ethereum-sepolia.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: SepoliaETH</p><p><strong>Block Explore</strong>r: <a href="https://sepolia.etherscan.io/">https://sepolia.etherscan.io/</a></p></td><td><p></p><p></p><p>Sepolia</p></td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Holesky</p><p><strong>Chain ID</strong>: 17000</p><p><strong>New RPC URL</strong>: https://ethereum-holesky.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explore</strong>r: <a href="https://holesky.beaconcha.in">https://holesky.beaconcha.in</a></p></td><td>Holesky</td></tr><tr><td><p><strong>Network Name</strong>: BlockPI Ethereum Hoodi</p><p><strong>Chain ID</strong>: 560048</p><p><strong>New RPC URL</strong>: https://ethereum-hoodi.blockpi.network/v1/rpc/&#x3C;your key></p><p><strong>Currency symbol</strong>: ETH</p><p><strong>Block Explore</strong>r: <a href="https://hoodi.beaconcha.in/">https://hoodi.beaconcha.in/</a></p></td><td>Hoodi</td></tr></tbody></table>
 {% endtab %}
 
+{% tab title="Elysium" %}
+**Network Name**: BlockPI Elysium Mainnet
+
+**Chain ID**: 99901
+
+**New RPC URL**: https://elysium.blockpi.network/v1/rpc/\<your key>
+
+**Currency symbol**: HYPE
+
+**Block Explorer**: [https://elysium.kinetiq.xyz/explorer](https://elysium.kinetiq.xyz/explorer)
+{% endtab %}
+
 {% tab title="Etherlink" %}
 **Network Name**: BlockPI Etherlink Mainnet
 
