@@ -12,3 +12,7 @@ description: >-
 * eth\_syncing
 * eth\_syncing
 
+/o/CCcJfkiLYnSauCcsCN8C/sites/site\_FLQqP/s/8N6dEmxnAIzSedG519Hl/~~/edit/~~/changes/218/build/api-reference/elysium/eth\_chainid
+
+eth\_syncing
+
