@@ -9,4 +9,6 @@ description: >-
 ### eth <a href="#eth" id="eth"></a>
 
 * [eth\_chainid.md](eth_chainid.md "mention")
+* eth\_syncing
+* eth\_syncing
 
