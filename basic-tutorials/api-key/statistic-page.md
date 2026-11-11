@@ -7,11 +7,13 @@ icon: chart-column
 
 # Statistic Page
 
-* On the left, you can choose to filter the statistics by key name or network.
-* The upper part on the right is the statistical chart.&#x20;
-* The lower part on the right shows the five most commonly used methods.
+* On the top bar, you can choose to filter the statistics by key name or network, and choose the and set the statistics time period.
+* The lower part is the statistical chart. You can switch between RU statistics and request volume statistics.
+* The button in the upper right corner takes you to Settings, where you can configure usage alert notifications.
 
-<figure><img src="../../.gitbook/assets/statistic page.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Note that Success Rate does not equal to _1-InvalidRequests/Requests._ Because Invalid Requests calculate any failed requests while Success Rate calculate failed requests with EVM errors and system errors.&#x20;

@@ -6,7 +6,7 @@ BlockPI now supports full-stack data services for SUI, including full nodes, arc
 
 Since the archival data is within an individual service, users need to create a separate network endpoint with the name “**SUI Mainnet Archive**”. While the endpoints for the full node and the GraphQL are within "**SUI Mainnet**". Check out the above table and the figure below.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 Please note that users requiring archival data should create a SUI Mainnet Archive endpoint and use gRPC.
 

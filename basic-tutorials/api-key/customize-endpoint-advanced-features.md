@@ -7,15 +7,9 @@ icon: galaxy
 
 # Customize Endpoint Advanced Features
 
-To determine whether a specific network supports any features, refer to the "Advanced Feature" column in the API Key List. For more detailed supported advanced features, please go to [this page](../../build/supported-networks-and-advanced-features.md).
+To determine whether a specific network supports any features, refer to the "Advanced Settings". For more detailed supported advanced features, please go to [this page](../../build/supported-networks-and-advanced-features.md).
 
-<figure><img src="../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
-
-## Endpoint Whitelist
-
-Each endpoint can have an independent whitelist, allowing you to set up to 10 IP addresses and domains. Once the whitelist feature is enabled, any requests sent to this endpoint will be checked; if they are not on the whitelist, an error will be returned.
-
-<figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## Archive Mode
 
@@ -27,7 +21,7 @@ In order to optimize efficiency, we recommend activating Archive mode only when 
 
 By default, the Archive mode is set to off. To enable it, simply click on the Archive mode symbol corresponding to the endpoint in the API Key list.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ## MEV Protection & Global Cast
 
@@ -42,10 +36,15 @@ In contrast, Global Cast can send users' transactions to BlockPI's global networ
 This feature is mutually exclusive with the MEV functionality because MEV uses private mempool.
 {% endhint %}
 
-To use these functions, go to the Endpoint List of the user's dashboard, click the broadcast icon.
+You are able to switch it to Normal, MEV Protection or Global Cast. Only one of the three can be selected.&#x20;
 
-<figure><img src="../../.gitbook/assets/advanced features 2.png" alt=""><figcaption></figcaption></figure>
+<br>
 
-You are able to switch it to Normal, MEV Protection or Global Cast. Only one of the three can be selected.<br>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/advanced features 3.png" alt=""><figcaption></figcaption></figure>
+## Endpoint Whitelist
+
+Each endpoint can have an independent whitelist, allowing you to set up to 10 IP addresses and domains. Once the whitelist feature is enabled, any requests sent to this endpoint will be checked; if they are not on the whitelist, an error will be returned.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+

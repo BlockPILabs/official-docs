@@ -19,6 +19,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Deposit
@@ -31,7 +33,7 @@ Note that Funds are **NOT** refundable and users' deposit can only be credited t
 
 ## Go to the Billings page. Click 'deposit'.
 
-<figure><img src="../../.gitbook/assets/deposit 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ## Deposit Stablecoin
 

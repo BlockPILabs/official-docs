@@ -11,8 +11,9 @@
 
 * [Registration & Login](basic-tutorials/registration-and-login/README.md)
   * [Link and Login with Web3 Wallet](basic-tutorials/registration-and-login/link-and-login-with-web3-wallet.md)
-* [API Key](basic-tutorials/api-key/README.md)
+* [API Endpoints](basic-tutorials/api-key/README.md)
   * [Generate An API Key](basic-tutorials/api-key/generate-an-api-key.md)
+  * [Legacy Endpoints](basic-tutorials/api-key/legacy-endpoints.md)
   * [Statistic Page](basic-tutorials/api-key/statistic-page.md)
   * [Customize Endpoint Advanced Features](basic-tutorials/api-key/customize-endpoint-advanced-features.md)
 * [Wallet Set Up](basic-tutorials/wallet-set-up/README.md)

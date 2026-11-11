@@ -19,15 +19,17 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # MetaMask Tutorial
 
 {% stepper %}
 {% step %}
-Go to the dashboard page and hover on an API key, and click the MetaMask icon.&#x20;
+Go to the key subpage and hover on the wallet icon of a network, and click.&#x20;
 
-<figure><img src="../../.gitbook/assets/MetaMask Tutorial 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

@@ -22,27 +22,17 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Email notifications setting
 
 ## Personal email notifications
 
-{% stepper %}
-{% step %}
-Go to the Personal and click Setting tab.
+Go to the Setting. And choose Email notification.
 
-<figure><img src="../../.gitbook/assets/Email notifications setting 1.png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-Scroll down on the main page and you will find related settings.
-
-<figure><img src="../../.gitbook/assets/Email notifications setting 2.png" alt=""><figcaption></figcaption></figure>
-
-
-{% endstep %}
-{% endstepper %}
+<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
 
 ## Team email notifications
 
